@@ -1,7 +1,17 @@
-p{
-	background-color: aqua;
-	padding: 12px;
-	border: 5px dashed #000000;
-	margin: 100px;
-	width: 400px;
+article{
+	position: relative;
+	
+	background-color: lightblue;
+	padding: 0px;
+	border: 1px groove black;
+	margin: 0px;
+	width: 500px;
+}
+body{
+	background-color: yellow;
+	
+}
+#header{
+	
+	text-align: center;
 }
