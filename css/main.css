@@ -25,14 +25,14 @@ body{
 #second_block{
 	display: block;
 	position: relative;
-	width: 700px;
+	width: 640px;
 	margin: auto;
 	height: 400px;
 }
 
 #nav{
 	display: block;
-	float: right;
+	
 	position: relative;
 	font-size: 30px;
 }
@@ -44,7 +44,7 @@ a{
 	text-decoration: none;
 	
 	margin: 10px;
-	font-size: 2em;
+	font-size: 50px;
 	
 }
 a:link {
