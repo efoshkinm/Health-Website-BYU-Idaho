@@ -1,0 +1,93 @@
+#info{
+	position: relative;
+	background-color: lightblue;
+	padding: 10px;
+	border: 1px groove black;
+	margin: auto;
+	display: block;
+	text-align: center;
+	font-size: 54px;
+	border-top: 2px groove red;
+	border-bottom: 2px groove red;
+}
+body{
+	background-color: yellow;
+	width: 640px;
+	display: block;
+	position: relative;
+	margin: auto;
+	border: 2px groove red;
+	height: auto;
+}
+img{
+	width: 640px;
+	margin-bottom: -5px;
+}
+
+#header{
+	display: block;
+	position: relative;
+	margin: auto;
+	
+	border-bottom: 2px groove red;
+	
+	text-align: center;
+	
+	background-color: orange;
+	font-size: 54px;
+}
+
+
+#nav{
+	display: block;
+	position: relative;
+	font-size: 30px;
+	
+}
+ul{
+	display: block;
+	position: relative;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+	display: block;
+	text-decoration: none;
+	font-size: 50px;
+	width: 640px;
+	border-top: 2px groove red;
+	
+}
+#authors{
+	font-size: 30px;
+	background-color: purple;
+	margin-top: -40px;
+	margin-bottom: -40px;
+	
+}
+#sketch{
+	font-size: 54px;
+	
+	
+	height: 70px;
+	background-color: orange;
+	margin-top: 0px;
+}
+#small{
+	margin-top: -45px;
+	border-bottom: 2px groove red;
+	border-top: 2px groove red;
+}
+a:link {
+	background-color: lightgreen;
+}
+a:visited {
+	background-color: cyan;
+}
+a:hover {
+	background-color: green;
+}
+a:active {
+	background-color: hotpink;
+}
