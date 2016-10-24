@@ -76,6 +76,8 @@ a{
 }
 #small{
 	margin-top: -45px;
+	border-bottom: 2px groove red;
+	border-top: 2px groove red;
 }
 a:link {
 	background-color: lightgreen;
