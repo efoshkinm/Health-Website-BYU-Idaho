@@ -1,9 +1,17 @@
 #practice{
-	border: 3px groove red;
-	
-	font-size: 32px;
+	margin: auto;
+	text-align;
+	border: 5px groove red;
 }
-#talk{
+#discription_practice{
 	border: 3px groove green;
 	background-color: red;
+	font-size: 32px;
+}
+#practice>h2{
+	text-align:center;
+}
+#talk{
+	border: 5px groove green;
+	background-color: yellow;
 }
