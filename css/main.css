@@ -15,8 +15,9 @@ body{
 	width: 640px;
 	display: block;
 	position: relative;
-	margin: auto;
+	
 	border: 2px groove red;
+	
 }
 img{
 	width: 640px;
