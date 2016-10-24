@@ -12,8 +12,14 @@ body{
 	
 }
 #header{
-	
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 20em;
+	height: 5em;
 	text-align: center;
+	border: 5px green;
+	background-color: orange;
 }
 #small {
 	
