@@ -25,14 +25,16 @@ body{
 #second_block{
 	display: block;
 	position: relative;
-	width: 700px;
+	width: 900px;
 	margin: auto;
+	height: 400px;
 }
+
 #nav{
 	display: block;
 	float: right;
 	position: relative;
-	font-size: 1em;
+	font-size: 30px;
 }
 ul{
 	list-style-type:none;
