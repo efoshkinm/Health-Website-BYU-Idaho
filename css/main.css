@@ -27,13 +27,30 @@ nav {
 	display: block;
 	float: right;
 }
-li {
-	display: block;	
-	padding: 10px;
+li{
+	display:block;
+	position: relative;
 	margin: 20px;
+	font-size: 3em;
+	text-decoration: none;
+	padding: 10px;
+	margin-right: 300px;
+	
+}
+a{
+	text-decoration: none;
+	width: 50px;
+	border: 2px green;
+}
+a:link {
 	background-color: lightgreen;
 }
-a {
-	text-decoration: none;
-	
+a:visited {
+	background-color: cyan;
+}
+a:hover {
+	background-color: green;
+}
+a:active {
+	background-color: hotpink;
 }
