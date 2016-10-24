@@ -9,7 +9,7 @@
 }
 body{
 	background-color: yellow;
-	
+	width: 640px;
 }
 #header{
 	display: block;
@@ -22,17 +22,10 @@ body{
 	background-color: orange;
 	font-size: 54px;
 }
-#second_block{
-	display: block;
-	position: relative;
-	width: 640px;
-	margin: auto;
-	height: 400px;
-}
+
 
 #nav{
 	display: block;
-	
 	position: relative;
 	font-size: 30px;
 }
@@ -42,8 +35,7 @@ ul{
 a{
 	display: block;
 	text-decoration: none;
-	
-	margin: 10px;
+	margin: 20px;
 	font-size: 50px;
 	
 }
