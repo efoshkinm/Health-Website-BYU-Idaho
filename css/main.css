@@ -15,15 +15,13 @@ body{
 	width: 640px;
 	display: block;
 	position: relative;
-	
+	margin: auto;
 	border: 2px groove red;
-	
+	height: auto;
 }
 img{
 	width: 640px;
-	margin-top: 20px;
-	border-top: 2px groove red;
-	border-bottom: 2px groove red;
+	margin-bottom: -5px;
 }
 
 #header{
@@ -56,12 +54,10 @@ ul{
 a{
 	display: block;
 	text-decoration: none;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	font-size: 50px;
 	width: 640px;
 	border-top: 2px groove red;
-	border-bottom: 2px groove red;
+	
 }
 #authors{
 	font-size: 30px;
