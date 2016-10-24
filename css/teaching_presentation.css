@@ -1,0 +1,9 @@
+#practice{
+	border: 3px groove red;
+	
+	font-size: 32px;
+}
+#talk{
+	border: 3px groove green;
+	background-color: red;
+}

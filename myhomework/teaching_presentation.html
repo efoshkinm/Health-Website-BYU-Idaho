@@ -7,7 +7,7 @@
 <meta name="description" content="HTML 5">
 <meta name="author" content="Maksim Efoshkin">
 
-<link rel="stylesheet" href="../css/teachingpresentation.css">
+<link rel="stylesheet" href="../css/teaching_presentation.css">
 <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
@@ -15,17 +15,62 @@
 	<h1>CSS Margin and Padding</h1>
 </header>
 <main>
+	<article id="Theory"><h2>Theory</h2>
+	<section> <h2> Slide 1</h2>
+	<p>CSS Margin and Paddings<br>
+		Maksim Efoshkin CIT 230</p>
+	</section>
+	<section><h2> Slide 2</h2>
+	<p>What is the Difference?<br>
+		<ul>
+			<li>Margin is "something" that affects the outside of the border.</li>
+			<li>Padding is "something" that affects the inside of the border and between the content.</li>
+			
+		</ul>
+		</p>
+	</section>
+	<section><h2>Slide 3</h2>
+	<img alt="box model" src="../images/box_model.gif">
+		<ul>
+			<li>Content may represent either text or a picture , or any other element</li>
+			<li>Border is a visual line that separates content with the “other world”(i.e. other content on the page)</li>
+			<li>Padding and Margin make the separete content, border, page contect and therefore make visual difference.</li>
+		</ul>
+	</section>
+	<section><h2>Slide 4</h2>
+	<h2> How to declare a Padding</h2>
+		<ul>
+			<li>article{padding: 25px(Top) 50px(right) 75px(bottom) 100px(left);}</li>
+			<li>article{padding: 25px(Top) 50px(right\left) 75px(bottom);}</li>
+			<li>article{padding: 25px(Top\bottom) 50px(right\left);}</li>
+			<li>article{padding: 25px(All sides);}</li>
+		</ul>
+	</section>
+	<section><h2>Slide 5</h2>
+	<h2>How to declare a Margin</h2>
+			<ul>
+				<li>article{padding: 25px(Top) 50px(right) 75px(bottom) 100px(left);}</li>
+				<li>article{padding: 25px(Top) 50px(right\left) 75px(bottom);}</li>
+				<li>article{padding: 25px(Top\bottom) 50px(right\left);}</li>
+				<li>article{padding: 25px(All sides);}</li>
+			</ul>
+	</section>
+	</article>
 	<article>
-		<header><h2>Things as They Really Are, Ensign June 2010<h2></header>
-		<section>
+		<h2> Practice</h2>
+		<p id="practice" >In the practice part I applied princples learned in the presentation. That is declaring margins and paddings 
+		in a css file and we showed the results on the page. It provided visual evidence of the matirial and tuaght in the 
+		presentation, also it emphasized importance of applying styling through padding and margin for a web page.
+		I used LiveCSSEditor to provide the material on the page.</p>
+		<section ="talk">
+		<h2>Things as They Really Are, Ensign June 2010<h2>
 		"Please be careful of becoming so immersed and engrossed in pixels, texting,
 		earbuds, twittering, online social networking, and potentially addictive 
 		uses of media and the Internet that you fail to recognize the importance 
 		of your physical body and miss the richness of person-to-person communication. 
 		Beware of digital displays and data in many forms of computer-mediated interaction 
 		that can displace the full range of physical capacity and experience.
-		</section>
-		<section>
+		<br>
 		Brothers and sisters, please understand. I am not suggesting all technology 
 		is inherently bad; it is not. Nor am I saying we should not use its many 
 		capabilities in appropriate ways to learn, to communicate, to lift and 
@@ -34,15 +79,12 @@
 		authentic relationships by obsessing over contrived ones."
 		</section>
 	</article>
-
 </main>
 <footer>
 <section id="authors">
 </section>
 </footer>
-
 <script src="js/script.js"></script>
-
 </body>
 
 </html>
