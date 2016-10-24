@@ -1,11 +1,11 @@
 article{
 	position: relative;
-	
 	background-color: lightblue;
-	padding: 0px;
+	padding: 10px;
 	border: 1px groove black;
-	margin: 0px;
-	width: 500px;
+	margin: auto;
+	display: block;
+	text-align: center;
 }
 body{
 	background-color: yellow;
