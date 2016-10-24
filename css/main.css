@@ -47,6 +47,12 @@ a{
 	font-size: 50px;
 	
 }
+#authors{
+	font-size: 30px;
+}
+#sketch{
+	font-size: 30px;
+}
 a:link {
 	background-color: lightgreen;
 }
