@@ -11,6 +11,9 @@ body{
 	background-color: yellow;
 	width: 640px;
 }
+#sunny_weather{
+	margin-left: auto;
+}
 #header{
 	display: block;
 	position: relative;
