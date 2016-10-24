@@ -7,6 +7,8 @@
 	display: block;
 	text-align: center;
 	font-size: 54px;
+	border-top: 2px groove red;
+	border-bottom: 2px groove red;
 }
 body{
 	background-color: yellow;
@@ -19,12 +21,16 @@ body{
 img{
 	width: 640px;
 	margin-top: 20px;
+	border-top: 2px groove red;
+	border-bottom: 2px groove red;
 }
+
 #header{
 	display: block;
 	position: relative;
 	margin: auto;
 	
+	border-bottom: 2px groove red;
 	
 	text-align: center;
 	
