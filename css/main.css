@@ -6,14 +6,18 @@
 	margin: auto;
 	display: block;
 	text-align: center;
+	font-size: 54px;
 }
 body{
 	background-color: yellow;
 	width: 640px;
+	display: block;
+	position: relative;
+	margin: auto;
+	border: 2px groove red;
 }
 img{
-	margin: auto;
-	width: 600px;
+	width: 640px;
 }
 #header{
 	display: block;
@@ -22,7 +26,7 @@ img{
 	
 	
 	text-align: center;
-	border: 5px green;
+	
 	background-color: orange;
 	font-size: 54px;
 }
