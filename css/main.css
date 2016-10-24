@@ -22,6 +22,14 @@ body{
 	background-color: orange;
 	font-size: 46px;
 }
-#small {
-	
+nav {
+	position: relative;
+	display: block;
+	float: right;
+}
+li {
+	display: block;	
+	padding: 10px;
+	margin: 20px;
+	background-color: lightgreen;
 }
