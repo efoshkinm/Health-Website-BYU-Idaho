@@ -20,7 +20,7 @@ body{
 	text-align: center;
 	border: 5px green;
 	background-color: orange;
-	font-size: 46px;
+	font-size: 54px;
 }
 #second_block{
 	display: block;
@@ -32,6 +32,7 @@ body{
 	display: block;
 	float: right;
 	position: relative;
+	font-size: 1em;
 }
 ul{
 	list-style-type:none;
