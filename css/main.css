@@ -1,4 +1,4 @@
-article{
+#info{
 	position: relative;
 	background-color: lightblue;
 	padding: 10px;
@@ -22,25 +22,27 @@ body{
 	background-color: orange;
 	font-size: 46px;
 }
-nav {
+#second_block{
+	display: block;
 	position: relative;
+	width: 700px;
+	margin: auto;
+}
+#nav{
 	display: block;
 	float: right;
-}
-li{
-	display:block;
 	position: relative;
-	margin: 20px;
-	font-size: 3em;
-	text-decoration: none;
-	padding: 10px;
-	margin-right: 300px;
-	
+}
+ul{
+	list-style-type:none;
 }
 a{
+	display: block;
 	text-decoration: none;
-	width: 50px;
-	border: 2px green;
+	
+	margin: 10px;
+	font-size: 3em;
+	
 }
 a:link {
 	background-color: lightgreen;
