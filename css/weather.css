@@ -1,88 +1,125 @@
-#info{
-	position: relative;
-	background-color: lightblue;
-	padding: 10px;
-	border: 1px groove black;
-	margin: auto;
-	display: block;
-	text-align: center;
-	font-size: 24px;
-	border-top: 2px groove red;
-	border-bottom: 2px groove red;
+@media screen and (max-width: 450px){
+	#info{
+		position: relative;
+		background-color: lightblue;
+		padding: 10px;
+		border: 1px groove black;
+		margin: auto;
+		display: block;
+		text-align: center;
+		font-size: 24px;
+		border-top: 2px groove red;
+		border-bottom: 2px groove red;
 }
+	#temperature{
+		display: none;
+		
+	}
+	body{
+		background-color: yellow;
+		display: block;
+		position: relative;
+		margin: auto;
+		border: 2px groove red;
+		
+	}
+	img{
+		width: 100%;
+	}
+
+	#header{
+		display: block;
+		position: relative;
+		margin: auto;
+		
+		border-bottom: 2px groove red;
+		
+		text-align: center;
+		
+		background-color: orange;
+		font-size: 54px;
+	}
+
+
+	#nav{
+		display: block;
+		position: relative;
+		font-size: 30px;
+		
+	}
+	ul{
+		display: block;
+		position: relative;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		display: block;
+		text-decoration: none;
+		font-size: 50px;
+		border-top: 2px groove red;
+		
+	}
+	#authors{
+		font-size: 30px;
+		background-color: purple;
+		
+	}
+	#sketch{
+		font-size: 30px;
+		height: 70px;
+		background-color: orange;
+		margin: 0px;
+	}
+	#small{
+		border-bottom: 2px groove red;
+		border-top: 2px groove red;
+	}
+	#medium{
+		display: none;
+	}
+	#large{
+		display: none;
+	}
+	a:link {
+		background-color: lightgreen;
+	}
+	a:visited {
+		background-color: cyan;
+	}
+	a:hover {
+		background-color: green;
+	}
+	a:active {
+		background-color: hotpink;
+	}
+}
+
+
+@media screen and (min-width: 451px) and (max-width: 780px){
+	
 body{
-	background-color: yellow;
-	
-	display: block;
-	position: relative;
-	margin: auto;
-	border: 2px groove red;
-	
-}
-img{
-	width: 100%;
-}
-
-#header{
-	display: block;
-	position: relative;
-	margin: auto;
-	
-	border-bottom: 2px groove red;
-	
-	text-align: center;
-	
-	background-color: orange;
-	font-size: 54px;
-}
-
-
-#nav{
-	display: block;
-	position: relative;
-	font-size: 30px;
-	
-}
-ul{
-	display: block;
-	position: relative;
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-a{
-	display: block;
-	text-decoration: none;
-	font-size: 50px;
-	border-top: 2px groove red;
-	
-}
-#authors{
-	font-size: 30px;
 	background-color: purple;
+	}
+	#small{
+		display: none;
+	}
+	
+	#large{
+		display: none;
+	}
 	
 }
-#sketch{
-	font-size: 30px;
-	
-	
-	height: 70px;
-	background-color: orange;
-	margin: 0px;
-}
-#small{
-	border-bottom: 2px groove red;
-	border-top: 2px groove red;
-}
-a:link {
-	background-color: lightgreen;
-}
-a:visited {
-	background-color: cyan;
-}
-a:hover {
-	background-color: green;
-}
-a:active {
-	background-color: hotpink;
+
+@media screen and (min-width: 781px){
+body{
+	background-color: blue;
+	}
+	#small{
+		display: none;
+	}
+	#medium{
+		display: none;
+	}
 }
