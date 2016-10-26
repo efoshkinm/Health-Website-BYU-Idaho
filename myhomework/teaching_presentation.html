@@ -12,24 +12,49 @@
 </head>
 <body>
 <header id="header">
-	<h1>CSS Margin and Padding</h1>
+	<h1>Teaching Presentation on</h1>
+	<h2>CSS Margins and Paddings</h2>
 </header>
 <main>
-	<article id="Theory"><h2>Theory</h2>
-	<section> <h2> Slide 1</h2>
-	<p>CSS Margin and Paddings<br>
-		Maksim Efoshkin CIT 230</p>
+	<article id="Theory">
+	<section> 
+	
 	</section>
-	<section><h2> Slide 2</h2>
-	<p>What is the Difference?<br>
+	<section><h2>Margins</h2>
+	<h3>What is a Margin?</h3>
+	<p>Margin is a CSS property that is responsible for whitespaces in between a border and a page content. For additional information go to the box model below.</p>
+	<h3>How to declare a Margin</h3>
+			<ul>
+				<li>article{padding: 25px(Top) 50px(right) 75px(bottom) 100px(left);}</li>
+				<li>article{padding: 25px(Top) 50px(right\left) 75px(bottom);}</li>
+				<li>article{padding: 25px(Top\bottom) 50px(right\left);}</li>
+				<li>article{padding: 25px(All sides);}</li>
+			</ul>
+		<p>All the margin properties can have the following values:
+			<ul>
+				<li>auto - the browser calculates the margin</li>
+				<li>length - specifies a margin in px, pt, cm, etc.</li>
+				<li>% - specifies a margin in % of the width of the containing element</li>
+				<li>inherit - specifies that the margin should be inherited from the parent element</p></li>
+			</ul>
+	<section><h2>Paddings</h2>
+	<h3>What is a Padding?</h3>
+	<p>Padding is a CSS property that is responsible for whitespaces in between a border and a content inside padding. For additional information go to the box model below.</p>
+	<h2> How to declare a Paddings</h2>
 		<ul>
-			<li>Margin is "something" that affects the outside of the border.</li>
-			<li>Padding is "something" that affects the inside of the border and between the content.</li>
-			
+			<li>article{padding: 25px(Top) 50px(right) 75px(bottom) 100px(left);}</li>
+			<li>article{padding: 25px(Top) 50px(right\left) 75px(bottom);}</li>
+			<li>article{padding: 25px(Top\bottom) 50px(right\left);}</li>
+			<li>article{padding: 25px(All sides);}</li>
 		</ul>
-		</p>
+	<p>All the padding properties can have the following values:
+		<ul>
+			<li>length - specifies a padding in px, pt, cm, etc.</li>
+			<li>% - specifies a padding in % of the width of the containing element</li>
+			<li>inherit - specifies that the padding should be inherited from the parent element</p></li>
+		</ul>
 	</section>
-	<section><h2>Slide 3</h2>
+	<section><h2>Box Model</h2>
 	<img alt="box model" src="../images/box_model.gif">
 		<ul>
 			<li>Content may represent either text or a picture , or any other element</li>
@@ -37,51 +62,13 @@
 			<li>Padding and Margin make the separete content, border, page contect and therefore make visual difference.</li>
 		</ul>
 	</section>
-	<section><h2>Slide 4</h2>
-	<h2> How to declare a Padding</h2>
-		<ul>
-			<li>article{padding: 25px(Top) 50px(right) 75px(bottom) 100px(left);}</li>
-			<li>article{padding: 25px(Top) 50px(right\left) 75px(bottom);}</li>
-			<li>article{padding: 25px(Top\bottom) 50px(right\left);}</li>
-			<li>article{padding: 25px(All sides);}</li>
-		</ul>
-	</section>
-	<section><h2>Slide 5</h2>
-	<h2>How to declare a Margin</h2>
-			<ul>
-				<li>article{padding: 25px(Top) 50px(right) 75px(bottom) 100px(left);}</li>
-				<li>article{padding: 25px(Top) 50px(right\left) 75px(bottom);}</li>
-				<li>article{padding: 25px(Top\bottom) 50px(right\left);}</li>
-				<li>article{padding: 25px(All sides);}</li>
-			</ul>
 	</section>
 	</article>
-	<article id="practice">
-		<h2> Practice</h2>
-		<p id="discription_practice" >In the practice part I applied princples learned in the presentation. That is declaring margins and paddings 
-		in a css file and we showed the results on the page. It provided visual evidence of the matirial and tuaght in the 
-		presentation, also it emphasized importance of applying styling through padding and margin for a web page.
-		I used LiveCSSEditor to provide the material on the page.</p>
-		<section id="talk">
-		<h2>Things as They Really Are, Ensign June 2010<h2>
-		<p>"Please be careful of becoming so immersed and engrossed in pixels, texting,
-		earbuds, twittering, online social networking, and potentially addictive 
-		uses of media and the Internet that you fail to recognize the importance 
-		of your physical body and miss the richness of person-to-person communication. 
-		Beware of digital displays and data in many forms of computer-mediated interaction 
-		that can displace the full range of physical capacity and experience.
-		<br>
-		Brothers and sisters, please understand. I am not suggesting all technology 
-		is inherently bad; it is not. Nor am I saying we should not use its many 
-		capabilities in appropriate ways to learn, to communicate, to lift and 
-		brighten lives, and to build and strengthen the Church; of course we should. 
-		But I am raising a warning voice that we should not squander and damage 
-		authentic relationships by obsessing over contrived ones."</p>
-		</section>
-	</article>
+	
 </main>
 <footer>
 <section id="authors">
+<h2>Maksim Efoshkin &copy; 10/26/2016
 </section>
 </footer>
 <script src="js/script.js"></script>
