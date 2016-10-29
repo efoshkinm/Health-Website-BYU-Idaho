@@ -1,201 +1,181 @@
-@media screen and (max-width: 450px){
-	#info{
-		position: relative;
-		background-color: lightblue;
-		padding: 10px;
-		border: 1px groove black;
-		margin: auto;
-		display: block;
-		text-align: center;
-		font-size: 24px;
-		border-top: 2px groove red;
-		border-bottom: 2px groove red;
-}
-	#temperature{
-		display: none;
-		
-	}
-	body{
-		background-color: yellow;
-		display: block;
-		position: relative;
-		margin: auto;
-		border: 2px groove red;
-		
-	}
-	img{
-		width: 100%;
-	}
-
-	#header{
-		display: block;
-		position: relative;
-		margin: auto;
-		
-		border-bottom: 2px groove red;
-		
-		text-align: center;
-		
-		background-color: orange;
-		font-size: 54px;
-	}
-
-
-	#nav{
-		display: block;
-		position: relative;
-		font-size: 30px;
-		
-	}
-	ul{
-		display: block;
-		position: relative;
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-	a{
-		display: block;
-		text-decoration: none;
-		font-size: 50px;
-		border-top: 2px groove red;
-		
-	}
-	#authors{
-		font-size: 30px;
-		background-color: purple;
-		
-	}
-	#sketch{
-		font-size: 30px;
-		height: 70px;
-		background-color: orange;
-		margin: 0px;
-	}
-	#small{
-		border-bottom: 2px groove red;
-		border-top: 2px groove red;
-	}
-	#medium{
-		display: none;
-	}
-	#large{
-		display: none;
-	}
-	a:link {
-		background-color: lightgreen;
-	}
-	a:visited {
-		background-color: cyan;
-	}
-	a:hover {
-		background-color: green;
-	}
-	a:active {
-		background-color: hotpink;
-	}
-}
-
-
-@media screen and (min-width: 451px) and (max-width: 780px){
-	
-body
-{
-	margin: 0;
-background-color: purple;
-}
-
-#small{
-	display: none;
-}
-	
-#large{
-	display: none;
-}
-#header{
-	border: 3px solid blue;
-	background-color: green;
-	width: 100%;
-	margin: 0;
-	height: 10vh;
-	font-size: 3em;
-	color: purple;
-	text-align: center;
-}
-#sun{
-	margin: 20px;
-	float: left;	
-}
-#nav{
-	display: block;
-	position: relative;
-	float: right;
-	border: 3px solid blue;
-	
-	
-}
-#nav ul{
-	list-style-type: none;
-	margin: 20px;
-}
-#nav a{
-	color: green;
-	text-decoration: none;
-	background-color: blue;
-	font-size: 3em;
-	
-}
-#info{
-	clear:both;
-}
-#second_block{
-	width: 100%;
-	border: 3px solid red;
-	overflow: hidden;
-}
-#third_block{
-	border: 3px solid red;
-}
-}
-
-@media screen and (min-width: 781px){
 body{
-	background-color: blue;
-	}
-#header{
-	border: 3px solid blue;
-	background-color: green;
-	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid blue;
 	margin: 0;
-	height: 10vh;
-	font-size: 3em;
-	color: purple;
-	text-align: center;
 }
-#nav li{
-	display: inline;
+
+header{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 0 auto;
+	padding: 2%;
+	border: 2px solid red;
+	font-size: 3vw;
+}
+
+header>*{
+	flex: 1 0 auto;
+	margin:0;
+	text-align: center;
 	
 }
-#nav ul{
-	font-size: 3em;
+
+figure{
+	margin: 0;
+}
+
+img{
+	display: block;
+	width: 100%;
+	border: 2px solid blue;
+	height: auto;
+}
+
+nav{
+	border: 2px solid green;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 0 100%;
+	font-size: 3vw;
+	
+}
+
+nav > ul{
+	flex-direction: column;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	flex: 1 0 100%;
 	text-align: center;
-	background-color: orange;
+}
+
+nav > ul > li{
+	border: 2px solid blue;
+	font-size: 2em;
+	
+}
+
+nav > ul > li > a{
 	text-decoration: none;
 	
 }
-#small
-{
-	display: none;
+nav > ul > li:hover{
+	background-color: lightblue;
 }
-#medium
-{
-	display: none;
+
+a:hover{
+	background-color: lightblue;
+	font-size: 1em;
 }
-#third_block{
-	background-color: purple;
-}
-footer{
-	background-color: green;
-}
+
+ 
+main{
+	border: 2px solid purple;
+	width: 100%;
+	font-size: 8vw;
 	
+}
+
+#weather_summary{
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+#weather_summary>*{
+	padding-left: 5vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 100%;
+	border: 2px solid black;
+	margin: 1px 0;
+	
+}
+
+#weather_summary>h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.9em;
+	margin-top: 0;
+}
+
+#daily_temperature{
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+}
+
+#daily_temperature>*{
+	justify-content: space-around;
+	margin: 0px;
+	
+}
+
+#small_title{
+	margin: 0;
+	border: 2px solid black;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	padding-left: 2vw; 
+}
+
+#image_medium{
+	display: none;
+}
+
+#image_large{
+	display: none;
+}
+
+footer{
+	border: 2px solid blue;
+	width: 100%;
+}
+
+footer > ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer>ul>li{
+	font-size: 8vw;
+	padding-left: 4vw;
+}
+
+@media screen and (min-width: 800px ){
+	nav{
+	border: 2px solid green;
+	width: 100%;
+}
+
+nav > ul{
+	display: flex;
+	flex-wrap: wrap;
+	
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav > ul > li{
+	border: 2px solid blue;
+	width: 100%;
+	flex: 1 0 25%;
+	
+}
+
+nav > ul > li > a{
+	text-decoration: none;
+}
+
 }

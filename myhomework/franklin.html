@@ -1,96 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Franklin | Weather</title>
-<meta name="description" content="Franklin Weather Today">
-<meta name="author" content="Maksim Efoshkin">
-<link rel="stylesheet" href="../css/weather.css">
-<link rel="icon" href="../images/sunfavicon.ico">
-<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<title>Franklin | Weather</title>
+	<meta name="description" content="Franklin Weather Today">
+	<meta name="author" content="Maksim Efoshkin">
+	<link rel="stylesheet" href="../css/weather.css">
+	<link rel="icon" href="../images/sunfavicon.ico">
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
-<header>
-	<h1 id="header">Franklin Weather Today</h1>
-</header>
-<main>
-	<article id="second_block">
-	
-	<nav id="nav">
+	<header>
+		<h1 id="header">Franklin Weather Today</h1>
+	</header>
+	<nav>
 		<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="teaching_presentation.html">Greenville</a></li>
-			<li><a href="planning.html">Springfield</a></li>
+			<li><a href="../franklin.html">Franklin</a></li>
+			<li><a href="greenvil.html">Greenville</a></li>
+			<li><a href="springfield.html">Springfield</a></li>
 		</ul>
 	</nav>
-	<figure id="sun">
-	<img  alt="Sunny Weather" src="../images/sunny_weather.png">
-	</figure>
-	</article>
-	<article id="third_block">
-		<section id="info">
-		<h2> Weather Information</h2>
-		<p> City: Franklin,<br>
-		State: ID<br>
-		Temperature High: 90<br>
-		Temperature Low: 66<br>
-		Precip: 0<br>
-		Wind: 1 - 5<br>
-		Direction: Southwest<br>
-		Summary: Sunny<br>
-		Longitude: -111.803757<br>
-		Latitude: 42.011902<br>
-		zip: 83237<br>
-		</p>
-		</section>
-	
-	<section id="temperature">
-		<p>Hourly Temperature:
-			"0": 67,
-			"1": 67,
-			"2": 69,
-			"3": 69,
-			"4": 69,
-			"5": 70,
-			"6": 69,
-			"7": 72,
-			"8": 74,
-			"9": 77,
-			"10": 79,
-			"11": 81,
-			"12": 84,
-			"13": 86,
-			"14": 88,
-			"15": 90,
-			"16": 90,
-			"17": 85,
-			"18": 83,
-			"19": 79,
-			"20": 74,
-			"21": 70,
-			"22": 68,
-			"23": 66
-			</p>
-	</section>
-	</article>
-	<h2 id="sketch">Sketch Small</h2>
-	
-		<img id="small" alt="Small Sketch for Mobile" src="../images/sketches/small.jpg">
-		<img id="medium" alt="Medium Sketch for Tablets" src="../images/sketches/midium.jpg">
-		<img id="large" alt="Large Sketch for Browsers" src="../images/sketches/browser.jpg">
-		
-</main>
-<footer>
-<section id="authors">
-<ul>
-	<li>CIT 230 Maksim Efoshkin &copy;</li>
-	<li>Last Updated: 23\10\16</li>
-</ul>
-</section>
-</footer>
+	<main>
+		<figure>
+		<img  alt="Sunny Weather" src="../images/sunny_weather.png">
+		</figure>
+		<article id="weather_information">
+			<section id="weather_summary">
+				<h4>Weather Information:</h4>
+				<p>City: Franklin;</p>
+				<p>State: ID;</p>
+				<p>Temperature High: 90;</p>
+				<p>Temperature Low: 66;</p>
+				<p>Precip: 0;</p>
+				<p>Wind: 1 - 5;</p>
+				<p>Direction: Southwest;</p>
+				<p id="last_p">Summary: Sunny.</p>
+			</section>
+			<section id="daily_temperature">
+				<h4>Hourly Temperature:</h4>
+				<p>"0": 67</p>
+				<p>"1": 67</p>
+				<p>"2": 69</p>
+				<p>"3": 69</p>
+				<p>"4": 69</p>
+				<p>"5": 70</p>
+				<p>"6": 69</p>
+				<p>"7": 72</p>
+				<p>"8": 74</p>
+				<p>"9": 77</p>
+				<p>"10": 79</p>
+				<p>"11": 81</p>
+				<p>"12": 84</p>
+				<p>"13": 86</p>
+				<p>"14": 88</p>
+				<p>"15": 90</p>
+				<p>"16": 90</p>
+				<p>"17": 85</p>
+				<p>"18": 83</p>
+				<p>"19": 79</p>
+				<p>"20": 74</p>
+				<p>"21": 70</p>
+				<p>"22": 68</p>
+				<p>"23": 66</p>
+			</section>
+		</article>
+		<h2 id="small_title">Sketch: Small</h2>
+		<figure>
+			<img id="image_small" alt="Small Sketch for Mobile" src="../images/sketches/small.jpg">
+			<img id="image_medium" alt="Medium Sketch for Tablets" src="../images/sketches/midium.jpg">
+			<img id="image_large" alt="Large Sketch for Browsers" src="../images/sketches/browser.jpg">
+		</figure>
+	</main>
+	<footer>
+	<ul>
+		<li>Maksim Efoshkin &copy;</li>
+		<li>Last Updated: 23\10\16</li>
+	</ul>
+	</footer>
 
-<script src="js/script.js"></script>
-
+	<script src="js/script.js"></script>
 </body>
-
 </html>
