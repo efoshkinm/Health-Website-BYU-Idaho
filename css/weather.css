@@ -119,7 +119,6 @@ main{
 #small_title{
 	margin: 0;
 	border: 2px solid black;
-	height: 7vh;
 	display: flex;
 	align-items: center;
 	padding-left: 2vw; 
