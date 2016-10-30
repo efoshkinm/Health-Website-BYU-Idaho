@@ -120,7 +120,7 @@ main{
 	display: flex;
 	align-items: center;
 	padding-left: 2vw; 
-	heght: auto;
+	height: auto;
 }
 
 #medium_title{
@@ -266,7 +266,7 @@ footer:hover{
 	display: flex;
 	align-items: center;
 	padding-left: 2vw; 
-	heght: auto;
+	height: auto;
 }
 
 #large_title{
