@@ -253,6 +253,9 @@ footer:hover{
 }
 #image_medium{
 	display: block;
+	width: 50%;
+	margin: auto;
+	border: 0;
 }
 
 #image_large{
@@ -430,6 +433,9 @@ footer ul li{
 
 #image_large{
 	display: block;
+	width: 50%;
+	margin: auto;
+	border: 0;
 }
 
 #small_title{
