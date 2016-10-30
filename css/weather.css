@@ -248,12 +248,16 @@ footer:hover{
 	background-color: lightblue;
 }
 
+footer{
+	justify-content: center;
+}
+
 #image_small{
 	display: none;
 }
 #image_medium{
 	display: block;
-	width: 50%;
+	width: 70%;
 	margin: auto;
 	border: 0;
 }
@@ -271,6 +275,7 @@ footer:hover{
 	border: 2px solid black;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	padding-left: 2vw; 
 	height: auto;
 }
