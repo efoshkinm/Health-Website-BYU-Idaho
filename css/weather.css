@@ -242,6 +242,10 @@ nav > ul > li{
 	background-color: lightblue;
 }
 
+footer:hover{
+	background-color: lightblue;
+}
+
 #image_small{
 	display: none;
 }
