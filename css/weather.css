@@ -198,42 +198,45 @@ nav > ul > li{
 	
 }
 
-#weather_information  img{
-	flex: 0 0 48vw;
+
+
+#main figure img{
+	flex: 0 0 40%;
 	border: 0;
 }
 
-#weather_information > figure{
-	display:flex;
-	
+
+#main{
+	display: flex;
+	flex-direction: row;
 }
 
 #weather_information > figure:hover{
 	background-color: lightblue;
 }
 
-#weather_information > #weather_summary{
+#weather_summary{
 	border: 0;
 	flex: 0 0 45%;
 	font-size: 5vw;
 	margin-bottom: 5vh;
 }
 
-#weather_information > #weather_summary:hover{
+#weather_summary:hover{
 	background-color: lightblue;
 }
 
-#weather_information > #weather_summary > *{
+#weather_summary > *{
 	font-size: 5vw;
 	border: 0;
 }
 
-#weather_information #daily_temperature{
+#daily_temperature{
 	font-size: 5vw;
 	flex: 1 0 auto;	
 }
 
-#weather_information #daily_temperature:hover{
+#daily_temperature:hover{
 	background-color: lightblue;
 }
 
