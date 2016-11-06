@@ -342,6 +342,7 @@ main{
 	width: 50%;
 	align-self: flex-start;
 	border: 0;
+	margin-left: 5vw;
 }
 
 #main > figure > img{
