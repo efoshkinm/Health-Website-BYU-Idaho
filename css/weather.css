@@ -341,6 +341,7 @@ main{
 #main > figure{
 	width: 100%;
 	align-self: flex-start;
+	order: -1;
 	border: 0;
 }
 
@@ -379,7 +380,6 @@ main{
 
 #main{
 	display: flex;
-	flex-wrap: wrap-reverse;
 	flex-direction: column;
 	flex: 1 0 30%;
 	border: 0;
