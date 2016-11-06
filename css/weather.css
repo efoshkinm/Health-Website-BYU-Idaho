@@ -339,7 +339,7 @@ main{
 }
 
 #main > figure{
-	width: 100%;
+	width: 50%;
 	align-self: flex-start;
 	border: 0;
 }
@@ -386,7 +386,7 @@ main{
 
 #weather_summary{
 	margin: 5vh 0;
-	order: -1;
+	order: 1;
 	font-size: 4vw;
 	align-self: flex-start;
 	align-items: flex-start;
