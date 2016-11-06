@@ -10,16 +10,10 @@
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
-	<header>
-		<h1 id="header">Franklin Weather Today</h1>
+	<header id="page-header">
 	</header>
 	
-	<nav>
-		<ul>
-			<li><a href="franklin.html">Franklin</a></li>
-			<li><a href="greenvil.html">Greenville</a></li>
-			<li><a href="springfield.html">Springfield</a></li>
-		</ul>
+	<nav id="page-nav">
 	</nav>
 	<main>
 		<article id="weather_information">
@@ -31,40 +25,41 @@
 					<h4>Weather Information:</h4>
 					<p>City: Franklin;</p>
 					<p>State: ID;</p>
-					<p>Temperature High: 90;</p>
-					<p>Temperature Low: 66;</p>
-					<p>Precip: 0;</p>
-					<p>Wind: 1 - 5;</p>
+					<p>Temperature High: 90 F;</p>
+					<p>Temperature Low: 66 F;</p>
+					<p>Precipitation: 0mm;</p>
+					<p>Wind: 1 - 5mph;</p>
 					<p>Direction: Southwest;</p>
 					<p id="last_p">Summary: Sunny.</p>
 				</section>
 			</section>
 			<section id="daily_temperature">
 				<h4>Hourly Temperature:</h4>
-				<p>"0": 67</p>
-				<p>"1": 67</p>
-				<p>"2": 69</p>
-				<p>"3": 69</p>
-				<p>"4": 69</p>
-				<p>"5": 70</p>
-				<p>"6": 69</p>
-				<p>"7": 72</p>
-				<p>"8": 74</p>
-				<p>"9": 77</p>
-				<p>"10": 79</p>
-				<p>"11": 81</p>
-				<p>"12": 84</p>
-				<p>"13": 86</p>
-				<p>"14": 88</p>
-				<p>"15": 90</p>
-				<p>"16": 90</p>
-				<p>"17": 85</p>
-				<p>"18": 83</p>
-				<p>"19": 79</p>
-				<p>"20": 74</p>
-				<p>"21": 70</p>
-				<p>"22": 68</p>
-				<p>"23": 66</p>
+				<p>Time: | F</p>
+				<p>00:00 : 67</p>
+				<p>01:00 : 67</p>
+				<p>02:00 : 69</p>
+				<p>03:00 : 69</p>
+				<p>04:00 : 69</p>
+				<p>05:00 : 70</p>
+				<p>06:00 : 69</p>
+				<p>07:00 : 72</p>
+				<p>08:00 : 74</p>
+				<p>09:00 : 77</p>
+				<p>10:00 : 79</p>
+				<p>11:00 : 81</p>
+				<p>12:00 : 84</p>
+				<p>13:00 : 86</p>
+				<p>14:00 : 88</p>
+				<p>15:00 : 90</p>
+				<p>16:00 : 90</p>
+				<p>17:00 : 85</p>
+				<p>18:00 : 83</p>
+				<p>19:00 : 79</p>
+				<p>20:00 : 74</p>
+				<p>21:00 : 70</p>
+				<p>22:00 : 68</p>
+				<p>23:00 : 66</p>
 			</section>
 		</article>
 	</main>
@@ -77,12 +72,11 @@
 			<img id="image_large" alt="Large Sketch for Browsers" src="../images/sketches/browser.jpg">
 		</figure>
 	
-	<footer>
-	<ul>
-		<li>Maksim Efoshkin &copy;</li>
-		<li>Last Updated: 29\10\16</li>
-	</ul>
+	<footer id="page-footer">
 	</footer>
-	<script src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" 
+	integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" 
+	crossorigin="anonymous"></script>
+	<script src="../js/modules.js"></script>
 </body>
 </html>
