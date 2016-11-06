@@ -335,7 +335,6 @@ nav > ul > li > a{
 main{
 	border: 0;
 	flex: 1 0 50%;
-	flex-wrap: wrap-reverse;
 	
 }
 
@@ -380,6 +379,7 @@ main{
 
 #main{
 	display: flex;
+	flex-wrap: wrap-reverse;
 	flex-direction: column;
 	flex: 1 0 30%;
 	border: 0;
