@@ -50,7 +50,7 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-	width: 100%;
+	width: 100vw;
 	background-image: url(../images/logo_50.png), url(../images/banner_400.jpg);
 	background-repeat: no-repeat, no-repeat;
 	background-position: bottom right, left;
@@ -177,7 +177,7 @@ h1 {
 	}
 	/*	Background Images - Use with medium screens */
 	.page-header {
-		width: 100%;
+		width: 100vw;
 		background-image: url(../images/logo_100.png), url(../images/banner_800.jpg);
 		background-repeat: no-repeat, no-repeat;
 		background-position: bottom right, left;	
@@ -227,7 +227,7 @@ h1 {
 	}
 	/*	Background Images - Use with large screens */
 	.page-header {
-		width: 100%;
+		width: 100vw;
 		background: url(../images/logo_150.png), url(../images/banner_1200.jpg);
 		background-repeat: no-repeat, no-repeat;
 		background-position: bottom right, left;
