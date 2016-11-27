@@ -34,8 +34,19 @@ $(function () {
 	  var location = data['location']['city'] + ',' + data['location']['state'];
 	  var temp = data['current_observation']['temp_f'];
 	  var current = data ['current_observation']['weather'];
+	  var tz_long = data ['nearby_weather_stations'] ['tz_long'];
+	  var windchill_c = data ['current_observation'] ['windchill_c'];
+	  var windchill_f = data ['current_observation'] ['windchill_f'];
+	  var wind_mph = data ['current_observation'] ['wind_mph'];
 	  
-	  alert("Current temperature in " + location + " is: " + temp_f);
+	  $('#cityDisplay').html('location');
+	  $('#currentTemp').html('Math.round(temp)+"&#176;F"');
+	  $('#summary').html(toTitleCase(current));
+	  $('#add1').html('Time zone: ' + (tz_long));
+	  $('#add2').html('Windchill in Celsius: ' + (windchill_c) + 'C');
+	  $('#add3').html('Windchill in Farenheit: ' + (windchill_f) + '&#176;F');
+	  $('#add3').html('Wind miles per hour: ' + (wind_mph) + 'mph');
+	  
   }
   });
 });
