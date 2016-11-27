@@ -28,7 +28,7 @@ $(function () {
 	  dataType: "jsonp",
 	  success: function(data) {
 		  console.log(data);
-	  var location = data['location']['city'] + ',' + data['location']['state'];
+	  var location = data['location'] ['city'] + ',' + data['location']['state'];
 	  var temp = data['current_observation']['temp_f'];
 	  var current = data ['current_observation']['weather'];
 	  var tz_long = data ['nearby_weather_stations'] ['tz_long'];
