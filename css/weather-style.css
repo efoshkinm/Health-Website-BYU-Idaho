@@ -1,0 +1,75 @@
+/*This is the weather application stylesheet*/
+
+
+/* Bring in the weather_type.css file */
+
+@import url('user_styles.css');
+
+/*Change the box model*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* *********** Base Styles ***********/
+
+
+
+
+
+
+
+/* ****** Weather Presentation ******/
+
+.weather-container {
+  border: 5px solid #000;
+  padding: .15em;
+  font-size: 8vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#cityDisplay {
+  margin: 0;
+  font-size: inherit;
+  border-bottom: 2px solid #000;
+}
+
+.weather-container h2 {
+  margin: 0;
+  font-size: 60%;
+}
+
+#current_conditions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#currentTemp {
+  margin: 0;
+  font-size: 18vw;
+  text-align: center;
+}
+
+#summary {
+  text-align: center;
+}
+
+
+/* ***** Utility Classes ***** */
+
+.hidden {
+  display: none;
+}
+
+
