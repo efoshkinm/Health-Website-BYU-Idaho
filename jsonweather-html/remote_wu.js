@@ -23,20 +23,6 @@ $(function () {
   // Get the data from the wunderground API
   function getData(lat, long){
     $.ajax({
-		
-		<script>
-			jQuery(document).ready(function($) {
-			  $.ajax({
-			  url : "http://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/q/IA/Cedar_Rapids.json",
-			  dataType : "jsonp",
-			  success : function(parsed_json) {
-			  var location = parsed_json['location']['city'];
-			  var temp_f = parsed_json['current_observation']['temp_f'];
-			  alert("Current temperature in " + location + " is: " + temp_f);
-			  }
-			  });
-			});
-		</script>
 
 
 
