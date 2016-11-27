@@ -45,19 +45,11 @@ $(function () {
 	  
   }
   });
-});
-</script>
-
-
-
-
 
 
       $("#cover").fadeOut(250);
     }
-           });
-
-  }
+ 
 
   // A function for changing a string to TitleCase
   function toTitleCase(str){
