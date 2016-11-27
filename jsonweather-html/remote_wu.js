@@ -42,7 +42,7 @@ $(function () {
 	  $('#add1').html('Time zone: ' + (tz_long));
 	  $('#add2').html('Windchill in Celsius: ' + (windchill_c) + 'C');
 	  $('#add3').html('Windchill in Farenheit: ' + (windchill_f) + '&#176;F');
-	  $('#add3').html('Wind miles per hour: ' + (wind_mph) + 'mph');
+	  $('#add4').html('Wind miles per hour: ' + (wind_mph) + 'mph');
 	  
   }
   });
