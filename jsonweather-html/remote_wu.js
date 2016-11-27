@@ -8,7 +8,7 @@ $(function () {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function (position) {
         var lat = position.coords.latitude;
-        var long = position.coords.longitude;
+        var lon = position.coords.longitude;
 
         // Call the getData function, send the lat and long
         getData(lat, long);
@@ -23,7 +23,7 @@ $(function () {
   // Get the data from the wunderground API
   function getData(lat, long){
     $.ajax({
-	  url:'https://api.wunderground.com/api/aebb2a7c6f18a650/geolookup/conditions/q/' + lat + ',' + long + '.json',
+	  url:'https://api.wunderground.com/api/aebb2a7c6f18a650/geolookup/conditions/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
 	  success: function(data){
 	
