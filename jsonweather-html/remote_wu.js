@@ -35,7 +35,7 @@ $(function () {
 	  var windchill_f = data['current_observation']['windchill_f'];
 	  var wind_mph = data['current_observation']['wind_mph'];
 	  
-	  $("#cityDisplay").html([locate]);
+	  $("#cityDisplay").html(data['location']['city']+", "+data['location']['state']);
 	  $("#currentTemp").html(Math.round(temp)+'&#176;F');
 	  $("#summary").html(toTitleCase(current));
 	  $("#add1").html('Time zone: ' + (tz_long));
