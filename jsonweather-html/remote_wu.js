@@ -37,7 +37,7 @@ $(function () {
 	  $("#cityDisplay").html(data['location']['city']+", "+data['location']['state']);
 	  $("#currentTemp").html(Math.round(temp)+'&#176;F');
 	  $("#summary").html(toTitleCase(current));
-	  $("#add2").html('Windchill in Celsius: ' + (windchill_c) + 'C');
+	  $("#add2").html('Windchill in Celsius: ' + (windchill_c) + 'C&#176;');
 	  $("#add3").html('Windchill in Farenheit: ' + (windchill_f) + '&#176;F');
 	  $("#add4").html('Wind miles per hour: ' + (wind_mph) + 'mph');
 	
