@@ -11,7 +11,7 @@ $(function () {
         var lon = position.coords.longitude;
 
         // Call the getData function, send the lat and long
-        getData(lat, long);
+        getData(lat, lon);
 
       });
     } else {
