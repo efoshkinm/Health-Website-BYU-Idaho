@@ -27,7 +27,7 @@ $(function () {
 	  dataType: "jsonp",
 	  success: function(data){
 	
-	  var location = data['location']['city'] + ',' + data['location']['state'];
+	  var locate = data['location']['city'] + ',' + data['location']['state'];
 	  var temp = data['current_observation']['temp_f'];
 	  var current = data['current_observation']['weather'];
 	  var tz_long = data['nearby_weather_stations']['tz_long'];
@@ -35,7 +35,7 @@ $(function () {
 	  var windchill_f = data['current_observation']['windchill_f'];
 	  var wind_mph = data['current_observation']['wind_mph'];
 	  
-	  $("#cityDisplay").html(location);
+	  $("#cityDisplay").html((locate));
 	  $("#currentTemp").html('Math.round(temp)'+'"&#176;F"');
 	  $("#summary").html('toTitleCase(current)');
 	  $("#add1").html('Time zone: ' + (tz_long));
