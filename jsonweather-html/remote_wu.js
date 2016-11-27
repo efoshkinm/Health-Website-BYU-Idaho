@@ -26,7 +26,7 @@ $(function () {
 	  url:'https://api.wunderground.com/api/aebb2a7c6f18a650/geolookup/conditions/q/' + lat + ',' + long + '.json',
 	  dataType: "jsonp",
 	  success: function(data){
-	console.log(data);
+	
 	  var location = data['location'] ['city'] + ',' + data['location']['state'];
 	  var temp = data['current_observation']['temp_f'];
 	  var current = data ['current_observation']['weather'];
