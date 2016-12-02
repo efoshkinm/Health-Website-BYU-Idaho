@@ -1,6 +1,6 @@
 $(function() {
 $("#current-header").load("/modules/current-header.html");
-$("#search-header").load("/modules/current-header.html");
+$("#search-header").load("/modules/search-header.html");
 $("#franklin-header").load("/modules/franklin-header.html");
 $("#greenville-header").load("/modules/greenville-header.html");
 $("#page-nav").load("/modules/nav.html");
