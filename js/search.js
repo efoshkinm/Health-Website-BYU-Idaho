@@ -82,7 +82,7 @@ $("#page-nav").on("click", "a", function (evt) {
 		$("#cover").fadeOut(250);
   }
   });
-
+  }
  
   
   
