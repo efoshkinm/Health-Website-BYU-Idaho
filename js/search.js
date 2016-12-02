@@ -4,7 +4,7 @@ $('#query').keyup(function(){
   var value = $('#query').val();
   var rExp = new RegExp(value, "i");
   $.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
-	console.log(data);
+	//console.log(data);
 	returned = data;
 
 
@@ -27,10 +27,10 @@ $("#searchResults").on("click", "a", function (evt) {
   evt.preventDefault();
   // With the text value get the needed value from the weather.json file
   var jsonCity = $(this).text(); // Franklin, etc...
-  console.log(jsonCity);
+  //console.log(jsonCity);
   index = $(this).index("#searchResults a");
-  console.log(index);
-  console.log(returned);
+  //console.log(index);
+ // console.log(returned);
   getData(returned.RESULTS[index].lat, returned.RESULTS[index].lon);
    //$("#searchResults").html("");
  }); // end keyup
@@ -45,7 +45,7 @@ $("#searchResults").on("click", "a", function (evt) {
 	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/forecast/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
 	  success: function(data){
-	
+		console.log(data)
 	  var locate = data['location']['city'] + ',' + data['location']['state'];
 	  var temp = data['current_observation']['temp_f'];
 	  var current = data['current_observation']['weather'];
@@ -62,9 +62,9 @@ $("#searchResults").on("click", "a", function (evt) {
 	  $("#windchill_c").html('Windchill in Celsius: ' + windchill_c + 'C&#176;');
 	  $("#windchill_f").html('Windchill in Farenheit: ' + windchill_f + '&#176;F');
 	  $("#wind_mph").html('Wind miles per hour: ' + wind_mph + 'mph');
-	  $("#cover").fadeOut(250);
 	  $("#temp_high").html('Temperature High: ' + temp_high + '&#176;F');
 	  $("#temp_low").html('Temperature Low: ' + temp_low + '&#176;F');
+	  $("#cover").fadeOut(250);
   }
    });
   
