@@ -39,11 +39,13 @@ $("#searchResults").on("click", "a", function (evt) {
   console.log(returned);
 	getData(returned.RESULTS[index].lat, returned.RESULTS[index].lon);
  }); // end keyup
+  
 });
   
 
    // Get the data from the wunderground API
   function getData(lat, lon){
+	  $("searchResults").html("");
     $.ajax({
 	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
@@ -56,18 +58,32 @@ $("#searchResults").on("click", "a", function (evt) {
 	  var windchill_f = data['current_observation']['windchill_f'];
 	  var wind_mph = data['current_observation']['wind_mph'];
 	  
+	  
 	  $("#cityDisplay").html(data['location']['city']+", "+data['location']['state']);
 	  $("#currentTemp").html(Math.round(temp)+'&#176;F');
 	  $("#summary").html(toTitleCase(current));
-	  $("#add2").html('Windchill in Celsius: ' + (windchill_c) + 'C&#176;');
-	  $("#add3").html('Windchill in Farenheit: ' + (windchill_f) + '&#176;F');
-	  $("#add4").html('Wind miles per hour: ' + (wind_mph) + 'mph');
-		$("#cover").fadeOut(250);
+	  $("#windchill_c").html('Windchill in Celsius: ' + (windchill_c) + 'C&#176;');
+	  $("#windchill_f").html('Windchill in Farenheit: ' + (windchill_f) + '&#176;F');
+	  $("#wind_mph").html('Wind miles per hour: ' + (wind_mph) + 'mph');
+	  $("#temp_high").html('Temperature High: ' + (temp_high) + '&#176;F');
+	  $("#temp_low").html('Temperature Low: ' + (temp_low) + '&#176;F');
+	  $("#cover").fadeOut(250);
   }
   });
   
+  $.ajax({
+	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/forecast/conditions/q/' + lat + ',' + lon + '.json',
+	  dataType: "jsonp",
+	  success: function(data){
+		  console.log(data)
+		  
+	  var temp_high = data['current_observation']['wind_mph'];
+	  var temp_low = data['current_observation']['wind_mph'];
+	  
+	  $("#temp_high").html('Temperature High: ' + (temp_high) + '&#176;F');
+	  $("#temp_low").html('Temperature Low: ' + (temp_low) + '&#176;F');
   
-  $("searchResults").html("");
+ 
   }
  
   
