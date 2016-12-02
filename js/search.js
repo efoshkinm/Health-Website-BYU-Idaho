@@ -65,6 +65,9 @@ $("#searchResults").on("click", "a", function (evt) {
 		$("#cover").fadeOut(250);
   }
   });
+  
+  
+  $("searchResults").html("");
   }
  
   
