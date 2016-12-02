@@ -32,7 +32,7 @@ $("#searchResults").on("click", "a", function (evt) {
   //console.log(index);
  // console.log(returned);
   getData(returned.RESULTS[index].lat, returned.RESULTS[index].lon);
-   //$("#searchResults").html("");
+   $("#searchResults").html("");
  }); // end keyup
   
 });
@@ -40,7 +40,7 @@ $("#searchResults").on("click", "a", function (evt) {
 
    // Get the data from the wunderground API
   function getData(lat, lon){
-	 $("#searchResults").html('');
+	 
     $.ajax({
 	  url:'https://api.wunderground.com/api/88e646fed71de22e/geolookup/conditions/forecast/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
