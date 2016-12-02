@@ -46,7 +46,7 @@ $("#searchResults").on("click", "a", function (evt) {
 	  dataType: "jsonp",
 	  success: function(data){
 		console.log(data)
-	  var locate = data['location']['city'] + ',' + data['location']['state'];
+	  var locate = data['location']['city'] + ',' + data['location']['country_name'];
 	  var temp = data['current_observation']['temp_f'];
 	  var current = data['current_observation']['weather'];
 	  var windchill_c = data['current_observation']['windchill_c'];
