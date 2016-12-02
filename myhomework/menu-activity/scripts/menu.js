@@ -9,7 +9,7 @@
 function getData(input) {
   // Get the data from the wunderground API
   $.ajax({
-    url: "http://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/q/"
+    url: "https://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/q/"
     + input + ".json"
     , dataType: "jsonp"
     , success: function (data) {
