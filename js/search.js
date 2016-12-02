@@ -25,7 +25,7 @@ $('#query').keyup(function(){
   }); // end getJSON
 
 
-}); // end keyup
+
 
 
 // Intercept the menu link clicks
@@ -38,7 +38,7 @@ $("#page-nav").on("click", "a", function (evt) {
   console.log(index);
   console.log(returned);
 	getData(returned.RESULTS[index].lat, returned.results[index].lon);
-  
+ }); // end keyup
   
   
   
@@ -92,4 +92,4 @@ $("#page-nav").on("click", "a", function (evt) {
   function toTitleCase(str){
     return str.replace(/\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
   }
-});
+
