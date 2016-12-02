@@ -40,7 +40,7 @@ $("#searchResults").on("click", "a", function (evt) {
 
    // Get the data from the wunderground API
   function getData(lat, lon){
-	 
+	 $("#searchResults").html('');
     $.ajax({
 	  url:'https://api.wunderground.com/api/88e646fed71de22e/geolookup/conditions/forecast/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
@@ -73,7 +73,7 @@ var locate_city = data['location']['city'];
 	  $("#cover").fadeOut(250);
   }
    });
-   $("#searchResults").html(''); 
+    
 	};
   
 
