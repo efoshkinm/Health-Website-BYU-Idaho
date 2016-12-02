@@ -57,9 +57,9 @@ $("#searchResults").on("click", "a", function (evt) {
 	  $("#cityDisplay").html(data['location']['city']+", "+data['location']['state']);
 	  $("#currentTemp").html(Math.round(temp)+'&#176;F');
 	  $("#summary").html(toTitleCase(current));
-	  $("#windchill_c").html('Windchill in Celsius: ' + ('windchill_c') + 'C&#176;');
-	  $("#windchill_f").html('Windchill in Farenheit: ' + ('windchill_f') + '&#176;F');
-	  $("#wind_mph").html('Wind miles per hour: ' + ('wind_mph') + 'mph');
+	  $("#windchill_c").html('Windchill in Celsius: ' + windchill_c + 'C&#176;');
+	  $("#windchill_f").html('Windchill in Farenheit: ' + windchill_f + '&#176;F');
+	  $("#wind_mph").html('Wind miles per hour: ' + wind_mph + 'mph');
 	  $("#cover").fadeOut(250);
   }
    });
