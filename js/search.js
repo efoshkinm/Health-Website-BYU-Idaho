@@ -42,7 +42,7 @@ $("#searchResults").on("click", "a", function (evt) {
   function getData(lat, lon){
 	 
     $.ajax({
-	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/forecast/q/' + lat + ',' + lon + '.json',
+	  url:'https://api.wunderground.com/api/aebb2a7c6f18a650/geolookup/conditions/forecast/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
 	  success: function(data){
 		console.log(data)
