@@ -34,7 +34,7 @@ $("#searchResults").on("click", "a", function (evt) {
   // With the text value get the needed value from the weather.json file
   var jsonCity = $(this).text(); // Franklin, etc...
   console.log(jsonCity);
-  index = $(this).index("a");
+  index = $(this).index("#searchResults a");
   console.log(index);
   console.log(returned);
 	getData(returned.RESULTS[index].lat, returned.results[index].lon);
