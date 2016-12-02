@@ -73,7 +73,7 @@ var locate_city = data['location']['city'];
 	  $("#cover").fadeOut(250);
   }
    });
-  
+   $("#searchResults").html(''); 
 	};
   
 
