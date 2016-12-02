@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Search</title>
-	<meta name="description" content="Search">
+	<title>Current| Weather</title>
+	<meta name="description" content="Search Weather Today">
 	<meta name="author" content="Maksim Efoshkin">
 	<link rel="stylesheet" href="/css/weather.css">
+	<link rel="stylesheet" href="/css/weather-style.css" type="text/css" media="screen">
 	<link rel="icon" href="/images/sunfavicon.ico">
 	<meta name="viewport" content="width=device-width">
 </head>
@@ -14,22 +15,25 @@
 	</header>
 	
 	<nav id="page-nav">
-		<noscript>JavaScript is not enabled. For navigation visit the <a href="/modules/sitemap.html">Site Map</a></noscript>
+		<noscript>JavaScript is not enabled. For navigation visit the <a href="sitemap.html">Site Map</a></noscript>
 	</nav>
-	<main>
-		<article id="weather_information">
-			<section id="main">
-				<figure>
-					<img  alt="Sunny Weather" src="/images/sunny_weather.png">
-				</figure>
-				<section id="weather_summary">
-					
-				</section>
-			</section>
-			<section id="daily_temperature">
-			</section>
-		</article>
-	</main>
+	<main id="page-main">
+	
+      <section class="weather-container">
+        <div id="cover">
+          <div id="status">Loading...</div>
+        </div>
+        <h1 id="cityDisplay"></h1>
+        <h2>Current Conditions</h2>
+        <ul id="current_conditions">
+          <li id="currentTemp"></li>
+          <li id="summary"></li>
+          <li id="add2"></li>
+          <li id="add3"></li>
+		  <li id="add4"></li>
+        </ul>
+      </section>
+    </main>
 		<figure id="sketch">
 		<h2 id="small_title">Sketch: Small</h2>
 		<h2 id="medium_title">Sketch: Medium</h2>
@@ -41,8 +45,10 @@
 	
 	<footer id="page-footer">
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" 
+	integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" 
+	crossorigin="anonymous"></script>
 	<script src="/js/modules.js"></script>
-	<script src="/js/search.js"></script>
+	<script src="/js/remote_wu.js"></script>
 </body>
 </html>
