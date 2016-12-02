@@ -3,7 +3,7 @@ var returned;
 $('#query').keyup(function(){
   var value = $('#query').val();
   var rExp = new RegExp(value, "i");
-  $.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
+  $.getJSON("http://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
 	console.log(data);
 	returned = data;
 	
@@ -29,7 +29,7 @@ $('#query').keyup(function(){
 
 
 // Intercept the menu link clicks
-$("#page-nav").on("click", "a", function (evt) {
+$("#searchResults").on("click", "a", function (evt) {
   evt.preventDefault();
   // With the text value get the needed value from the weather.json file
   var jsonCity = $(this).text(); // Franklin, etc...
@@ -39,25 +39,8 @@ $("#page-nav").on("click", "a", function (evt) {
   console.log(returned);
 	getData(returned.RESULTS[index].lat, returned.results[index].lon);
  }); // end keyup
-  
-  
-  
-  $.ajax({
-    url: "/menu-activity/scripts/weather.json"
-    , dataType: "json"
-    , success: function (data) {
-      console.log(data);
-      console.log(data[jsonCity]);
-      var zip = data[jsonCity].zip;
-      console.log(zip);
-      getData(zip);
-    }
-  });
 });
-
-
-
-
+  
 
    // Get the data from the wunderground API
   function getData(lat, lon){
