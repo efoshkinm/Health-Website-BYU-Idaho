@@ -42,7 +42,7 @@ $("#searchResults").on("click", "a", function (evt) {
   function getData(lat, lon){
 	 
     $.ajax({
-	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/q/' + lat + ',' + lon + '.json',
+	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/forecast/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
 	  success: function(data){
 	
@@ -52,6 +52,8 @@ $("#searchResults").on("click", "a", function (evt) {
 	  var windchill_c = data['current_observation']['windchill_c'];
 	  var windchill_f = data['current_observation']['windchill_f'];
 	  var wind_mph = data['current_observation']['wind_mph'];
+	  var temp_high = data['current_observation']['wind_mph'];
+	  var temp_low = data['current_observation']['wind_mph'];
 	  
 	  
 	  $("#cityDisplay").html(data['location']['city']+", "+data['location']['state']);
@@ -61,22 +63,10 @@ $("#searchResults").on("click", "a", function (evt) {
 	  $("#windchill_f").html('Windchill in Farenheit: ' + windchill_f + '&#176;F');
 	  $("#wind_mph").html('Wind miles per hour: ' + wind_mph + 'mph');
 	  $("#cover").fadeOut(250);
-  }
-   });
-  
-  $.ajax({
-	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/forecast/conditions/q/' + lat + ',' + lon + '.json',
-	  dataType: "jsonp",
-	  success: function(data){
-	  console.log(data)
-		  
-	  var temp_high = data['current_observation']['wind_mph'];
-	  var temp_low = data['current_observation']['wind_mph'];
-	  
 	  $("#temp_high").html('Temperature High: ' + (temp_high) + '&#176;F');
 	  $("#temp_low").html('Temperature Low: ' + (temp_low) + '&#176;F');
   }
- });
+   });
   
 	};
   
