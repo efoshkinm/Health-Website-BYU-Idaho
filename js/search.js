@@ -52,10 +52,10 @@ $("#searchResults").on("click", "a", function (evt) {
 	  var windchill_c = data['current_observation']['windchill_c'];
 	  var windchill_f = data['current_observation']['windchill_f'];
 	  var wind_mph = data['current_observation']['wind_mph'];
-	  var temp_high_c = data['forcast']['simpleforecast']['forecastday']['0']['high']['celsius'];
-	  var temp_high_f = data['forcast']['simpleforecast']['forecastday']['0']['high']['fahrenheit'];
-	  var temp_low_c = data['forcast']['simpleforecast']['forecastday']['0']['low']['celsius'];
-	  var temp_low_f = data['forcast']['simpleforecast']['forecastday']['0']['low']['fahrenheit'];
+	  var temp_high_c = data['forecast']['simpleforecast']['forecastday']['0']['high']['celsius'];
+	  var temp_high_f = data['forecast']['simpleforecast']['forecastday']['0']['high']['fahrenheit'];
+	  var temp_low_c = data['forecast']['simpleforecast']['forecastday']['0']['low']['celsius'];
+	  var temp_low_f = data['forecast']['simpleforecast']['forecastday']['0']['low']['fahrenheit'];
 	
 	  
 	  
