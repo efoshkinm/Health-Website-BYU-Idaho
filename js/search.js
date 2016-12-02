@@ -46,7 +46,8 @@ $("#searchResults").on("click", "a", function (evt) {
 	  dataType: "jsonp",
 	  success: function(data){
 		console.log(data)
-	  var locate = data['location']['city'] + ',' + data['location']['country_name'];
+var locate_city = data['location']['city'];
+	  var locate_country= data['location']['country_name'];
 	  var temp = data['current_observation']['temp_f'];
 	  var current = data['current_observation']['weather'];
 	  var windchill_c = data['current_observation']['windchill_c'];
@@ -59,7 +60,7 @@ $("#searchResults").on("click", "a", function (evt) {
 	
 	  
 	  
-	  $("#cityDisplay").html(data['location']['city']+", "+data['location']['state']);
+	  $("#cityDisplay").html(locate_city + ',' + locate_country);
 	  $("#currentTemp").html('Current temperatur: '+ Math.round(temp)+'&#176;F');
 	  $("#summary").html('Summary: '+toTitleCase(current));
 	  $("#windchill_c").html('Windchill in Celsius: ' + windchill_c + 'C&#176;');
