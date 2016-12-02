@@ -32,7 +32,7 @@ $("#searchResults").on("click", "a", function (evt) {
   console.log(index);
   console.log(returned);
   getData(returned.RESULTS[index].lat, returned.RESULTS[index].lon);
-   $("#searchResults").html("");
+   //$("#searchResults").html("");
  }); // end keyup
   
 });
