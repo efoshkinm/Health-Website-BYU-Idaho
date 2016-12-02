@@ -63,8 +63,8 @@ $("#searchResults").on("click", "a", function (evt) {
 	  $("#windchill_f").html('Windchill in Farenheit: ' + windchill_f + '&#176;F');
 	  $("#wind_mph").html('Wind miles per hour: ' + wind_mph + 'mph');
 	  $("#cover").fadeOut(250);
-	  $("#temp_high").html('Temperature High: ' + (temp_high) + '&#176;F');
-	  $("#temp_low").html('Temperature Low: ' + (temp_low) + '&#176;F');
+	  $("#temp_high").html('Temperature High: ' + temp_high + '&#176;F');
+	  $("#temp_low").html('Temperature Low: ' + temp_low + '&#176;F');
   }
    });
   
