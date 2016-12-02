@@ -79,7 +79,7 @@ $("#searchResults").on("click", "a", function (evt) {
  });
   
 	};
-  }
+  
 
 
  // A function for changing a string to TitleCase
