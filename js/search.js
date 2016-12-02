@@ -37,7 +37,7 @@ $("#searchResults").on("click", "a", function (evt) {
   index = $(this).index("#searchResults a");
   console.log(index);
   console.log(returned);
-	getData(returned.RESULTS[index].lat, returned.results[index].lon);
+	getData(returned.RESULTS[index].lat, returned.RESULTS[index].lon);
  }); // end keyup
 });
   
