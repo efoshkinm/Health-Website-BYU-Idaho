@@ -6,9 +6,6 @@ $('#query').keyup(function(){
   $.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
 	console.log(data);
 	returned = data;
-	
-	
-	
 
 
     // Begin building output
@@ -25,9 +22,6 @@ $('#query').keyup(function(){
   }); // end getJSON
 
 
-
-
-
 // Intercept the menu link clicks
 $("#searchResults").on("click", "a", function (evt) {
   evt.preventDefault();
@@ -37,7 +31,8 @@ $("#searchResults").on("click", "a", function (evt) {
   index = $(this).index("#searchResults a");
   console.log(index);
   console.log(returned);
-	getData(returned.RESULTS[index].lat, returned.RESULTS[index].lon);
+  getData(returned.RESULTS[index].lat, returned.RESULTS[index].lon);
+   $("#searchResults").html("");
  }); // end keyup
   
 });
@@ -45,7 +40,7 @@ $("#searchResults").on("click", "a", function (evt) {
 
    // Get the data from the wunderground API
   function getData(lat, lon){
-	  $("searchResults").html("");
+	 
     $.ajax({
 	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/geolookup/conditions/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
@@ -69,7 +64,7 @@ $("#searchResults").on("click", "a", function (evt) {
 	  $("#temp_low").html('Temperature Low: ' + (temp_low) + '&#176;F');
 	  $("#cover").fadeOut(250);
   }
-  });
+  
   
   $.ajax({
 	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/forecast/conditions/q/' + lat + ',' + lon + '.json',
@@ -82,12 +77,11 @@ $("#searchResults").on("click", "a", function (evt) {
 	  
 	  $("#temp_high").html('Temperature High: ' + (temp_high) + '&#176;F');
 	  $("#temp_low").html('Temperature Low: ' + (temp_low) + '&#176;F');
-  
- 
   }
- 
+ });
   
-  
+	});
+  }
 
 
  // A function for changing a string to TitleCase
