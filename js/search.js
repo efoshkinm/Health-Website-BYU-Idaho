@@ -68,7 +68,7 @@ $("#searchResults").on("click", "a", function (evt) {
 	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/forecast/conditions/q/' + lat + ',' + lon + '.json',
 	  dataType: "jsonp",
 	  success: function(data){
-		  console.log(data)
+	  console.log(data)
 		  
 	  var temp_high = data['current_observation']['wind_mph'];
 	  var temp_low = data['current_observation']['wind_mph'];
