@@ -62,7 +62,7 @@ $("#searchResults").on("click", "a", function (evt) {
 	  $("#wind_mph").html('Wind miles per hour: ' + (wind_mph) + 'mph');
 	  $("#cover").fadeOut(250);
   }
-  
+   });
   
   $.ajax({
 	  url:'https://api.wunderground.com/api/a32eecbfb7d1c488/forecast/conditions/q/' + lat + ',' + lon + '.json',
