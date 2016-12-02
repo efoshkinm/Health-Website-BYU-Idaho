@@ -79,11 +79,11 @@ $("#page-nav").on("click", "a", function (evt) {
 	  $("#add2").html('Windchill in Celsius: ' + (windchill_c) + 'C&#176;');
 	  $("#add3").html('Windchill in Farenheit: ' + (windchill_f) + '&#176;F');
 	  $("#add4").html('Wind miles per hour: ' + (wind_mph) + 'mph');
-	
+		$("#cover").fadeOut(250);
   }
   });
 
-  $("#cover").fadeOut(250);
+ 
   
   
 
