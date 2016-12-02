@@ -52,18 +52,23 @@ $("#searchResults").on("click", "a", function (evt) {
 	  var windchill_c = data['current_observation']['windchill_c'];
 	  var windchill_f = data['current_observation']['windchill_f'];
 	  var wind_mph = data['current_observation']['wind_mph'];
-	  var temp_high = data['current_observation']['wind_mph'];
-	  var temp_low = data['current_observation']['wind_mph'];
+	  var temp_high_c = data['forcast']['simpleforecast']['forecastday']['0']['high']['celsius'];
+	  var temp_high_f = data['forcast']['simpleforecast']['forecastday']['0']['high']['fahrenheit'];
+	  var temp_low_c = data['forcast']['simpleforecast']['forecastday']['0']['low']['celsius'];
+	  var temp_low_f = data['forcast']['simpleforecast']['forecastday']['0']['low']['fahrenheit'];
+	
 	  
 	  
 	  $("#cityDisplay").html(data['location']['city']+", "+data['location']['state']);
-	  $("#currentTemp").html(Math.round(temp)+'&#176;F');
-	  $("#summary").html(toTitleCase(current));
+	  $("#currentTemp").html('Current temperatur: '+ Math.round(temp)+'&#176;F');
+	  $("#summary").html('Summary: '+toTitleCase(current));
 	  $("#windchill_c").html('Windchill in Celsius: ' + windchill_c + 'C&#176;');
 	  $("#windchill_f").html('Windchill in Farenheit: ' + windchill_f + '&#176;F');
 	  $("#wind_mph").html('Wind miles per hour: ' + wind_mph + 'mph');
-	  $("#temp_high").html('Temperature High: ' + temp_high + '&#176;F');
-	  $("#temp_low").html('Temperature Low: ' + temp_low + '&#176;F');
+	  $("#temp_high_f").html('Temperature High Fahrenheit: ' + temp_high_f + '&#176;F');
+	  $("#temp_high_c").html('Temperature High Celsius: ' + temp_high_c + 'C&#176;');
+	  $("#temp_low_f").html('Temperature Low Fahrenheit: ' + temp_low_f + '&#176;F');
+	  $("#temp_low_c").html('Temperature Low Celsius: ' + temp_low_c + 'C&#176;');
 	  $("#cover").fadeOut(250);
   }
    });
