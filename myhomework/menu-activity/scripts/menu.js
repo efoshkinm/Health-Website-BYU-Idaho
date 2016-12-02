@@ -35,6 +35,26 @@ $("#page-nav").on("click", "a", function (evt) {
   var jsonCity = $(this).text(); // Franklin, etc...
   console.log(jsonCity);
   $.ajax({
+    url: "/menu-activity/scripts/weather.json"
+    , dataType: "json"
+    , success: function (data) {
+      console.log(data);
+      console.log(data[jsonCity]);
+      var zip = data[jsonCity].zip;
+      console.log(zip);
+      getData(zip);
+    }
+  });
+});
+
+
+// Intercept the menu link clicks
+$("#page-nav").on("click", "a", function (evt) {
+  evt.preventDefault();
+  // With the text value get the needed value from the weather.json file
+  var jsonCity = $(this).text(); // Franklin, etc...
+  console.log(jsonCity);
+  $.ajax({
     url: "scripts/weather.json"
     , dataType: "json"
     , success: function (data) {
