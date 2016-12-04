@@ -377,6 +377,11 @@ main{
 	align-items: flex-start;
 	justify-content: space-between;
 }
+#page-main}{
+font-size: 2vw;	
+	
+	
+}
 
 #main{
 	display: flex;
