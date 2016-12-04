@@ -385,8 +385,12 @@ font-size: 4vw;
 
 #page-main ul{
 	text-decoration: none;
-	list-style-type: none;
-	
+	list-style-type: none;	
+}
+
+#page-main li{
+	text-decoration: none;
+	list-style-type: none;	
 }
 
 #main{
@@ -405,7 +409,7 @@ font-size: 4vw;
 	border: 0;
 }
 #weather_summary h4{
-	font-size: 2vw;
+	font-size: 4vw;
 }
 
 #weather_summary > *{
