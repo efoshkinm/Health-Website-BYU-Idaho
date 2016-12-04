@@ -35,7 +35,7 @@ nav{
 	display: flex;
 	flex-wrap: wrap;
 	flex: 1 0 auto;
-	font-size: 3vw;
+	font-size: 2vw;
 	
 }
 
@@ -50,7 +50,7 @@ nav > ul{
 
 nav > ul > li{
 	border: 2px solid blue;
-	font-size: 2em;
+	font-size: 1.5em;
 	
 }
 
