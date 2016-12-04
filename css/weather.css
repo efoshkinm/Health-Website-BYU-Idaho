@@ -364,7 +364,7 @@ main{
 
 #large_title{
 	justify-content: center;
-	font-size: 5vw;
+	font-size: 3vw;
 	
 }
 
@@ -388,7 +388,7 @@ main{
 #weather_summary{
 	margin: 5vh 0;
 	order: 1;
-	font-size: 4vw;
+	font-size: 2vw;
 	align-self: flex-start;
 	align-items: flex-start;
 	border: 0;
@@ -404,13 +404,13 @@ main{
 
 
 #daily_temperature h4{
-	font-size: 4vw;
+	font-size: 2vw;
 }
 
 #daily_temperature{
 	justify-content: center;
 	width: 35%;
-	font-size: 4vw;
+	font-size: 2vw;
 	text-align: center;
 	border: 0;
 }
