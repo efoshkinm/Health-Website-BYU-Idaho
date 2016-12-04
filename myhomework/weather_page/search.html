@@ -26,20 +26,14 @@ Samantha Sullivan
 	</nav>
 	<main id="page-main">
 		<article id="weather_information">
-			<section id="main">
-	<!-- Current weather page -->
-      <section id="weather_summary">
 	  <!-- Search Bar -->
-	<section id="weather_information">
+	<section id="main">
 		<form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
 		  <input type="search" name="query" id="query">
 		  <input type="submit" name="submit" value="Search" id="send">
 		</form>
-		
-		<section id="searchResults">
-			<h2>Search Results</h2>
-		</section>
-	</section>
+	<!--Weather output -->
+	<section id="weather_summary">
         <div id="cover">
           <div id="status">Loading...</div>
         </div>
@@ -55,12 +49,14 @@ Samantha Sullivan
 		  <li id="temp_high_f"></li>
 		  <li id="temp_low_c"></li>
 		  <li id="temp_low_f"></li>
-		  
-        </ul>
-      </section>
 	  
-	  </article>
+        </ul>
+		</section>	
+      </section>
+	  <section id="daily_temperature">
+		<section id="searchResults"><h2>Search Results</h2></section>
 	  </section>
+	  </article>
     </main>
 		<figure id="sketch">
 		<h2 id="small_title">Sketch: Small</h2>
