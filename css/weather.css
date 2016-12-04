@@ -50,7 +50,7 @@ nav > ul{
 
 nav > ul > li{
 	border: 2px solid blue;
-	font-size: 1.5em;
+	font-size: 1em;
 	
 }
 
@@ -403,7 +403,7 @@ font-size: 4vw;
 }
 
 #cityDisplay{
-	font-size: 3em;
+	font-size: 2em;
 	
 }
 
