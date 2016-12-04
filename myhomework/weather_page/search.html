@@ -6,7 +6,7 @@
 	<meta name="description" content="Search Weather Today">
 	<meta name="author" content="Maksim Efoshkin">
 	<link rel="stylesheet" href="/css/weather.css">
-	<link rel="stylesheet" href="/css/weather-style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/css/weather-style.css">
 	<link rel="icon" href="/images/sunfavicon.ico">
 	<meta name="viewport" content="width=device-width">
 </head>
@@ -25,7 +25,10 @@ Samantha Sullivan
 		<noscript>JavaScript is not enabled. For navigation visit the <a href="sitemap.html">Site Map</a></noscript>
 	</nav>
 	<main id="page-main">
-	<!-- Search Bar -->
+		
+	<!-- Current weather page -->
+      <section id="weather_summary">
+	  <!-- Search Bar -->
 	<section id="weather_information">
 		<form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
 		  <input type="search" name="query" id="query">
@@ -35,9 +38,7 @@ Samantha Sullivan
 		<section id="searchResults">
 			<h2>Search Results</h2>
 		</section>
-	</section>	
-	<!-- Current weather page -->
-      <section id="weather_summary">
+	</section>
         <div id="cover">
           <div id="status">Loading...</div>
         </div>
