@@ -377,10 +377,10 @@ main{
 	align-items: flex-start;
 	justify-content: space-between;
 }
-#page-main}{
+#page-main{
 font-size: 4vw;	
 	text-decoration: none;
-	
+	list-style-type: none;
 }
 
 #main{
