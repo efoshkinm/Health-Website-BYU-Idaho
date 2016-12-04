@@ -35,7 +35,7 @@ nav{
 	display: flex;
 	flex-wrap: wrap;
 	flex: 1 0 auto;
-	font-size: 2vw;
+	font-size: 5vw;
 	
 }
 
@@ -50,7 +50,7 @@ nav > ul{
 
 nav > ul > li{
 	border: 2px solid blue;
-	font-size: 1em;
+	font-size: 2em;
 	
 }
 
@@ -413,7 +413,7 @@ font-size: 4vw;
 	border: 0;
 }
 #weather_summary h4{
-	font-size: 4vw;
+	font-size: 3vw;
 }
 
 #weather_summary > *{
