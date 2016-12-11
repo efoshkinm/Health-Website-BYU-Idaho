@@ -104,7 +104,7 @@ nav{
 	width: 30%;
 	
 }
-nav > ul > li{
+nav > ul > li > a{
 	height: auto;
 	
 }
