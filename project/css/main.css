@@ -71,6 +71,12 @@ a:visited{
 main {
 	border: 2px solid purple;
 }
+img{
+	display: block;
+	width: 100%;
+	border: 2px solid blue;
+	height: auto;
+}
 
 @media (min-width: 600px) and (max-width: 1000px){
 	
