@@ -3,8 +3,19 @@ body {
 	
 }
 
-#header {
-	border: 2px solid green;
+#header{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 0 100%;
+	padding: 2%;
+	border: 2px solid red;
+	font-size: 3vw;
+}
+
+#header>*{
+	flex: 1 0 100%;
+	margin:0;
+	text-align: center;
 	
 }
 
