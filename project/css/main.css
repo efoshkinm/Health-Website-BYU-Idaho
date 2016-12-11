@@ -12,6 +12,54 @@ body {
 	border: 2px solid yellow;
 }
 
+nav{
+	border: 2px solid green;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 0 auto;
+	font-size: 5vw;
+	
+}
+
+nav > ul{
+	flex-direction: column;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	flex: 1 0 auto;
+	text-align: center;
+}
+
+nav > ul > li{
+	border: 2px solid blue;
+	font-size: 2em;
+	
+}
+
+nav > ul > li > a{
+	text-decoration: none;
+	
+}
+nav > ul > li:hover{
+	background-color: lightblue;
+}
+
+a:hover{
+	background-color: lightblue;
+	font-size: 1em;
+}
+
+a:visited{
+	color: blue;
+}
+ 
+
+
+
+
+
+
+
 #footer {
 	border: 2px solid blue;
 }
