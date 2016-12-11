@@ -63,13 +63,6 @@ a:hover{
 a:visited{
 	color: blue;
 }
- 
-
-
-
-
-
-
 
 #footer {
 	border: 2px solid blue;
@@ -77,4 +70,16 @@ a:visited{
 
 main {
 	border: 2px solid purple;
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+	
+	
+	
+}
+
+@media(min-width: 1001px ){
+	
+	
+	
 }
