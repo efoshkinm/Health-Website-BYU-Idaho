@@ -2,3 +2,20 @@ body {
 	border: 2px solid red;
 	
 }
+
+#header {
+	border: 2px solid green;
+	
+}
+
+#nav {
+	border: 2px solid yellow;
+}
+
+#footer {
+	border: 2px solid blue;
+}
+
+main {
+	border: 2px solid purple;
+}
