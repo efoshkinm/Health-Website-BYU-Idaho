@@ -79,7 +79,17 @@ img{
 }
 
 @media (min-width: 600px) and (max-width: 1000px){
+
+nav > ul{
+	display: flex;
+	flex-direction: row;
 	
+}
+
+nav > ul > li{
+	flex: 1 0 auto;	
+	border: 0;
+}
 	
 	
 }
