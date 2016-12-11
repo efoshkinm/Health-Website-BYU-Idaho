@@ -83,6 +83,7 @@ img{
 nav > ul{
 	display: flex;
 	flex-direction: column;
+	height: auto;
 	
 	
 }
@@ -101,7 +102,7 @@ img{
 
 nav{
 	width: 30%;
-	height: auto;
+	
 }
 	
 }
