@@ -82,7 +82,7 @@ img{
 
 nav > ul{
 	display: flex;
-	flex-direction: colmn;
+	flex-direction: column;
 	
 	
 }
