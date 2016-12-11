@@ -87,7 +87,7 @@ nav > ul{
 }
 #flex {
 	display: flex;
-	
+	flex-direction: row;
 	
 }
 	
