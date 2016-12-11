@@ -73,7 +73,7 @@ main {
 }
 img{
 	display: block;
-	width: 48%;
+	width: 100%;
 	border: 2px solid blue;
 	height: auto;
 }
@@ -83,7 +83,7 @@ img{
 nav > ul{
 	display: flex;
 	flex-direction: row;
-	width: 50%;
+	
 	
 }
 #flex {
@@ -91,6 +91,14 @@ nav > ul{
 	flex-direction: row;
 	width: 100%;
 	
+}
+img{
+	width: 30%;
+	height: auto;
+}
+
+nav{
+	width: 30%;
 }
 	
 }
