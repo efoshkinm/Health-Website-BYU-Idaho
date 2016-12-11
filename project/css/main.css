@@ -83,11 +83,13 @@ img{
 nav > ul{
 	display: flex;
 	flex-direction: row;
+	width: 100%;
 	
 }
 #flex {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
 	
 }
 	
