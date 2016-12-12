@@ -92,6 +92,7 @@ nav > ul{
 	display: flex;
 	flex-direction: row-reverse;
 	width: 100%;
+	align-content: center;
 	
 }
 img{
