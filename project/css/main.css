@@ -152,7 +152,16 @@ nav > ul > li{
 	height: 50vh;
 	margin: 5vw;
 }
+#flex{
 	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
 	
 }
 	
