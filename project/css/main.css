@@ -79,6 +79,9 @@ img{
 }
 
 @media (min-width: 600px) and (max-width: 1000px){
+#nav{
+	width: 40vw;
+}
 
 nav > ul{
 	display: flex;
