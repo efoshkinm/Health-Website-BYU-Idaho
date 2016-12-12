@@ -95,8 +95,7 @@ nav > ul{
 #flex {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
-	width: 100%;
+	flex-direction: row-reverse;
 	
 }
 img{
