@@ -105,6 +105,11 @@ img{
 	margin: 0;
 }
 
+picture {
+	width: 40%;
+	
+}
+
 nav{
 	flex: 0 0 20vw;
 	height: 100%;
