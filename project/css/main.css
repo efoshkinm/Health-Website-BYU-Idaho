@@ -105,12 +105,13 @@ img{
 nav{
 	width: 50%;
 	height: 100%;
-	margin: 1vw;
+	
 	
 	
 }
 nav > ul > li > a{
 	height: auto;
+	margin: 1vw;
 	
 }
 nav > ul > li{
