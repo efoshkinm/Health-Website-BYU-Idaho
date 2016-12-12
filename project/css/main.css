@@ -106,9 +106,14 @@ nav{
 	width: 50%;
 	height: 100%;
 	
+	
 }
 nav > ul > li > a{
 	height: auto;
+	
+}
+nav > ul > li{
+	font-size: 1em;
 	
 }
 	
