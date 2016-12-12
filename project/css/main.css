@@ -134,6 +134,12 @@ nav > ul > li{
 	
 	}
 	
+	img{
+	display: block;
+	width: 70%;
+	height: 50%;
+	margin: 20vw;
+}
 	
 	
 }
