@@ -123,6 +123,41 @@ nav > ul > li{
 
 @media(min-width: 1001px ){
 	
+	nav > ul{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	}
+	
+	nav > ul > li{
+	font-size: 1em;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }
