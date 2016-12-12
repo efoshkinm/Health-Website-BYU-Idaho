@@ -95,9 +95,10 @@ nav > ul{
 }
 img{
 	display: block;
-	width: 97%;
+	width: 95%;
 	height: auto;
-	margin-right: 2vw; 
+	margin-right: 2vw;
+	margin-light: 2vw;
 }
 
 nav{
