@@ -9,12 +9,12 @@ $(function () {
 	  var jump = data['Exercises']['Jump'];
 	  var abs = data['Exercises']['Abs'];
 	  
-	  $("#pushups").html(pushups);
-	  $("#pullups").html(pullups);
-	  $("#chinups").html(chinups);
-	  $("#run").html(run);
-	  $("#jump").html(jump);
-	  $("#abs").html(abs);
+	  $("#pushups").html("The number of Push ups: " + pushups);
+	  $("#pullups").html("The number of Pull ups: " + pullups);
+	  $("#chinups").html("The number of Chin ups: " + chinups);
+	  $("#run").html("Time of running: " + run);
+	  $("#jump").html("The number of Jumps to do: " + jump);
+	  $("#abs").html("The number of Abs wourkout repetitions: " + abs);
 	
   });
   });
