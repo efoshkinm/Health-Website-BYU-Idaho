@@ -13,5 +13,5 @@ $(function () {
 	  $("#onions").html('onions');
 	  $("#tomatoes").html('tomatoes');
 	
-  });
+  });console.log(data);
   });
