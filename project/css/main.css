@@ -99,11 +99,7 @@ video {
 	height: 50vh;	
 }
 
-#persona{
-	
-	
-	
-}
+
 
 @media (min-width: 600px) and (max-width: 1000px){
 #nav{
@@ -230,6 +226,15 @@ main{
 	font-size: 1.5rem;
 	
 }
+
+#persona{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+	
+}
+
 
 }	
 }
