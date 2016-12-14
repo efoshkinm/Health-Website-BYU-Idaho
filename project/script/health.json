@@ -34,6 +34,15 @@
 			"0": "Oysters",
 			"1": "fish",
 			"2": "shrimp"
+		},
+		"Exercises": {
+			"Push-ups": "20",
+			"Pull-ups": "50",
+			"Chin-ups": "20",
+			"Run": "20 min",
+			"Jump": "50",
+			"Abs": "100"
+
 		}
 	
 }
