@@ -170,6 +170,14 @@ nav > ul > li{
 	
 }
 
+#sketches{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
 .sketch{
 	display: block;
 	width: 60vw;
