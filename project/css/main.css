@@ -130,6 +130,10 @@ nav > ul > li{
 	font-size: 1em;
 	width: 100%;
 }
+
+video {
+	display: flex;
+}
 	
 }
 
