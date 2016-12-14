@@ -19,5 +19,5 @@
   }
   });
  }
- console.log(data);
+ console.log(getData(data));
  getData();
