@@ -156,7 +156,12 @@ nav > ul > li{
 .persona{
 	display: block;
 	width: 20vw;
-	height: 30vh;
+	height: 30vh;	
+}
+
+#persona{
+	display: flex;
+	flex-wrap: wrap;
 	
 	
 }
