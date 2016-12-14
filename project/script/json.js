@@ -19,4 +19,4 @@
   }
   });
  }
- getData();
+ getData(data);
