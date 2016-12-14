@@ -4,7 +4,7 @@
 	  dataType: "jsonp",
 	  success: function(data){
 		console.log(data);
-	  var cabbage = data['Food']['Vegies']['0'];
+	  var cabbage = data['Vegies']['0'];
 	  var garlic = data['Food']['Vegies']['1'];
 	  var potatoes = data['Food']['Vegies']['2'];
 	  var onions = data['Food']['Vegies']['3'];
