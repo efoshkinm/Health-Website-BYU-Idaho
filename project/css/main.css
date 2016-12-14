@@ -154,6 +154,7 @@ nav > ul > li{
 }
 
 .persona{
+	display: block;
 	width: 20vw;
 	height: 30vh;
 	
