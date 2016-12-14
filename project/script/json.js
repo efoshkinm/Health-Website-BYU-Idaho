@@ -1,3 +1,4 @@
+ var data;
  function getData(data){
     $.ajax({
 	  url:'/project/script/health.json',
@@ -19,5 +20,4 @@
   }
   });
  }
- console.log(getData(data));
- getData();
+ getData(data);
