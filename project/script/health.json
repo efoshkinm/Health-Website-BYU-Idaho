@@ -6,36 +6,36 @@
 			"2": "potatoes",
 			"3": "onions",
 			"4": "tomatoes",
-		}
+		},
 		"Fruits": {
 			"0": "bananas",
 			"1": "pomagranad",
 			"2": "watermellon",
 			"3": "peach",
 			"4": "apricot",
-		}
+		},
 		"Nuts": {
 			"0": "wallnuts",
 			"1": "almonds",
 			"2": "peanut",
 			"3": "coconut",
-		}
+		},
 		"Other": {
 			"0": "Dark Chocolate",
 			"1": "Olive Oil",
 			"2": "Honey",
 
-		}
+		},
 		"Meat": {
 			"0": "Beef",
 			"1": "Pork",
 			"2": "Checken",
-		}
+		},
 		"Seafood": {
 			"0": "Oysters",
 			"1": "fish",
 			"2": "shrimp",
-		}
+		},
 	}
 	
 }
