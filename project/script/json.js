@@ -7,7 +7,7 @@ $(function () {
 	  var onions = data['Vegies']['3'];
 	  var tomatoes = data['Vegies']['4'];
 	  
-	  $("#cabbage").html('cabbage');
+	  $("#cabbage").html(cabbage);
 	  $("#garlic").html('garlic');
 	  $("#potatoes").html('potatoes');
 	  $("#onions").html('onions');
