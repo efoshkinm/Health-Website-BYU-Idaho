@@ -9,10 +9,10 @@ $(function () {
 	  var tomatoes = data['Vegies']['4'];
 	  
 	  $("#cabbage").html(cabbage);
-	  $("#garlic").html('garlic');
-	  $("#potatoes").html('potatoes');
-	  $("#onions").html('onions');
-	  $("#tomatoes").html('tomatoes');
+	  $("#garlic").html(garlic);
+	  $("#potatoes").html(potatoes);
+	  $("#onions").html(onions);
+	  $("#tomatoes").html(tomatoes);
 	
   });
   });
