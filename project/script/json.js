@@ -1,9 +1,5 @@
- var data;
- function getData(data){
-    $.ajax({
-	  url:'/project/script/health.json',
-	  dataType: "jsonp",
-	  success: function(data){
+$(function ()) {
+	$.getJSON("/project/script/health.json", function (data){
 		console.log(data);
 	  var cabbage = data['Vegies']['0'];
 	  var garlic = data['Food']['Vegies']['1'];
@@ -19,5 +15,4 @@
 	
   }
   });
- }
- getData(data);
+ };
