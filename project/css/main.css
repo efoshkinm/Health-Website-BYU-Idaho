@@ -137,6 +137,10 @@ nav > ul > li{
 	width: 100%;
 }
 
+footer{
+	
+	display: inline;
+}
 
 	
 }
@@ -195,6 +199,12 @@ main{
 	
 	
 }
+
+footer{
+	
+	display: inline;
+}
+
 }	
 }
 	
