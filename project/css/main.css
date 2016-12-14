@@ -136,7 +136,7 @@ nav > ul > li{
 @media(min-width: 1001px ){
 	
 	nav{
-	flex: 0 0 30vw;
+	flex: 0 0 25vw;
 	height: 100%;
 	}
 	
