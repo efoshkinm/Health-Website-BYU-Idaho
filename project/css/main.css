@@ -99,6 +99,15 @@ video {
 	height: auto;	
 }
 
+.sketch{
+	display: block;
+	width: 50vw;
+	height: auto;
+	
+	
+}
+
+
 
 
 @media (min-width: 600px) and (max-width: 1000px){
@@ -160,6 +169,7 @@ nav > ul > li{
 	font-size: 1.5rem;
 	
 }
+
 
 
 	
