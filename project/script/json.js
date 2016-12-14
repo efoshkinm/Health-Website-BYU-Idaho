@@ -1,4 +1,4 @@
- function getData(){
+ function getData(data){
     $.ajax({
 	  url:'/project/script/health.json',
 	  dataType: "jsonp",
