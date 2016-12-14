@@ -1,4 +1,5 @@
 $(function () {
+	console.log("working")
 	$.getJSON("/project/script/health.json", function (data){
 		console.log(data);
 	  var cabbage = data['Vegies']['0'];
@@ -13,5 +14,5 @@ $(function () {
 	  $("#onions").html('onions');
 	  $("#tomatoes").html('tomatoes');
 	
-  });console.log(data);
+  });
   });
