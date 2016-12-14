@@ -1,45 +1,18 @@
 {
-	"Franklin": {
-		"City": "Franklin",
-		"State": "ID",
-		"High": 90,
-		"Low": 66,
-		"Precip": 0,
-		"Wind": "1 - 5",
-		"Direction": "Southwest",
-		"Summary": "Sunny",
-		"Longitude": -111.803757,
-		"Latitude": 42.011902,
-		"zip": 83237,
-		"Hourly": {
-			"0": 67,
-			"1": 67,
-			"2": 69,
-			"3": 69,
-			"4": 69,
-			"5": 70,
-			"6": 69,
-			"7": 72,
-			"8": 74,
-			"9": 77,
-			"10": 79,
-			"11": 81,
-			"12": 84,
-			"13": 86,
-			"14": 88,
-			"15": 90,
-			"16": 90,
-			"17": 85,
-			"18": 83,
-			"19": 79,
-			"20": 74,
-			"21": 70,
-			"22": 68,
-			"23": 66
-		}
+	"Exercises": {
+		"Push-ups": 10,
+		"Pull-ups": 10,
+		"Squats": 90,
+		"Bench press": 12,
+		"Abd workout": 20,
+		"Dips": 20,
+		
 	},
-	"Greenville": {
-		"City": "Greenville",
+	
+	
+	
+	"Food": {
+		"Fish": "Tuna",
 		"State": "SC",
 		"High": 84,
 		"Low": 55,
