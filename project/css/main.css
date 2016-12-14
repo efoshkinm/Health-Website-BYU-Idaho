@@ -170,7 +170,13 @@ nav > ul > li{
 	
 }
 
-
+.sketch{
+	display: block;
+	width: 60vw;
+	height: auto;
+	
+	
+}
 
 	
 }
