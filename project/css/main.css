@@ -152,13 +152,19 @@ nav > ul > li{
 	
 	}
 	
+	picture{
+	margin-left: auto;
+	margin-right: 2vw;
+	margin-bottom: 1vw;
+		
+		
+	}
+	
 	img{
 	display: block;
 	width: 50vw;
 	height: 50vh;
-	margin-left: auto;
-	margin-right: 2vw;
-	margin-bottom: 1vw;
+	
 }
 #flex{
 	
