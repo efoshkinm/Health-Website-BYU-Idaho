@@ -145,6 +145,7 @@ nav > ul > li{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	flex-basis: 20vw;
 	}
 	
 	nav > ul > li{
