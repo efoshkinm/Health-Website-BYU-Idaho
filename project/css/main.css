@@ -93,6 +93,19 @@ video {
 	
 }
 
+.persona{
+	display: block;
+	width: 20vw;
+	height: 30vh;	
+}
+
+#persona{
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
 @media (min-width: 600px) and (max-width: 1000px){
 #nav{
 	width: 100vw;
@@ -153,18 +166,7 @@ nav > ul > li{
 	
 }
 
-.persona{
-	display: block;
-	width: 20vw;
-	height: 30vh;	
-}
 
-#persona{
-	display: flex;
-	flex-wrap: wrap;
-	
-	
-}
 	
 }
 
