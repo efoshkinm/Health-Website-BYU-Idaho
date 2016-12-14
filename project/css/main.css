@@ -156,7 +156,7 @@ nav > ul > li{
 	display: block;
 	width: 50vw;
 	height: 50vh;
-	margin: 5vw;
+	margin: 1vw;
 }
 #flex{
 	
@@ -170,6 +170,7 @@ nav > ul > li{
 
 main{
 	width: 60%;
+	
 	
 	
 }
