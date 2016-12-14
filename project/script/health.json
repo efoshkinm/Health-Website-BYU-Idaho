@@ -1,11 +1,11 @@
 {
-		"Vegies": [
+		"Vegies": {
 			"0": "cabbage",
 			"1": "garlic",
 			"2": "potatoes",
 			"3": "onions",
 			"4": "tomatoes",
-		],
+		},
 		"Fruits": {
 			"0": "bananas",
 			"1": "pomagranad",
