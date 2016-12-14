@@ -171,7 +171,7 @@ nav > ul > li{
 main{
 	display: flex;
 	width: 60%;
-	align-self: flex-end;
+	align-content: flex-end;
 	
 	
 	
