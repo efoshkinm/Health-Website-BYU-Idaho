@@ -35,6 +35,14 @@
 			"1": "fish",
 			"2": "shrimp"
 		},
+		"Junk Food": {
+			"0": "Fast foods",
+			"1": "Fried fats",
+			"2": "Simple Sugars",
+			"3": "caffeine drinks",
+		
+		
+		},
 		"Exercises": {
 			"Push-ups": "20",
 			"Pull-ups": "50",
