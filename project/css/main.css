@@ -260,6 +260,12 @@ main{
 	
 }
 
+
+.persona{
+	display: block;
+	width: 40vw;
+	height: auto;	
+}
 .sketch{
 	display: block;
 	width: 40vw;
