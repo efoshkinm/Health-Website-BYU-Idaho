@@ -112,6 +112,7 @@ iframe{
 	margin: auto;
 	width: 60vw;
 	height: 30vh;
+	frameborder: 0;
 }
 
 
