@@ -260,9 +260,15 @@ main{
 	
 }
 
+.sketch{
+	display: block;
+	width: 60vw;
+	height: auto;
+	justify-content: center;
+}
 
 }	
-}
+
 	
 
 	
